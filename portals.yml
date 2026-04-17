@@ -104,157 +104,313 @@ title_filter:
     - "VP"
 
 # -- Search queries --
-# HFT, low-latency, and trading-specific job board searches.
+# Ordered by LOCATION PRIORITY: India → HK → Singapore → London → Netherlands → Germany → Japan → USA → Canada → Global
+# Each region uses its primary job boards first, then global boards filtered by location.
 
 search_queries:
 
-  # -- LinkedIn-style job boards --
-  - name: LinkedIn — C++ Low Latency India
-    query: '"C++ Engineer" OR "C++ Developer" "low latency" OR "high frequency" OR "HFT" India site:linkedin.com/jobs'
-    enabled: true
+  # ============================================================
+  # PRIORITY 1: INDIA (Pune, Mumbai, Bangalore, Hyderabad, Delhi)
+  # ============================================================
 
-  - name: LinkedIn — Exchange Connectivity C++ India
-    query: '"exchange connectivity" OR "market connectivity" OR "FIX protocol" "C++" India site:linkedin.com/jobs'
-    enabled: true
-
-  - name: LinkedIn — C++ Trading Systems India
-    query: '"trading systems" OR "electronic trading" OR "algo trading" "C++" "senior" OR "lead" India site:linkedin.com/jobs'
-    enabled: true
-
-  # -- Naukri (India's largest job board) --
-  - name: Naukri — C++ Low Latency
+  - name: Naukri — C++ Low Latency India
     query: 'site:naukri.com "C++" "low latency" OR "high frequency trading" OR "HFT" OR "exchange connectivity"'
     enabled: true
 
-  - name: Naukri — FIX Protocol C++
-    query: 'site:naukri.com "FIX protocol" OR "Binary FIX" "C++" "senior" OR "lead" Pune OR Mumbai OR Bangalore'
+  - name: Naukri — FIX Protocol C++ India
+    query: 'site:naukri.com "FIX protocol" OR "Binary FIX" "C++" "senior" OR "lead" Pune OR Mumbai OR Bangalore OR Hyderabad'
     enabled: true
 
-  - name: Naukri — Trading Systems C++
-    query: 'site:naukri.com "trading systems" OR "capital markets" "C++" "senior" OR "lead" Pune OR Mumbai'
+  - name: Naukri — Trading Systems C++ India
+    query: 'site:naukri.com "trading systems" OR "capital markets" OR "electronic trading" "C++" "senior" OR "lead"'
     enabled: true
 
-  # -- Greenhouse --
-  - name: Greenhouse — C++ Trading
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "C++" "trading" OR "low latency" OR "HFT" OR "exchange"'
+  - name: Naukri — C++ Order Management India
+    query: 'site:naukri.com "order management" OR "OMS" OR "order routing" "C++" "senior" OR "lead"'
     enabled: true
 
-  - name: Greenhouse — FIX Protocol / Market Connectivity
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "FIX protocol" OR "exchange connectivity" OR "market data" "C++"'
-    enabled: true
-
-  # -- Ashby --
-  - name: Ashby — HFT / Trading C++
-    query: 'site:jobs.ashbyhq.com "C++" "low latency" OR "trading" OR "HFT" OR "quantitative"'
-    enabled: true
-
-  # -- Lever --
-  - name: Lever — C++ Trading Systems
-    query: 'site:jobs.lever.co "C++" "low latency" OR "trading" OR "HFT" OR "exchange connectivity"'
-    enabled: true
-
-  # -- Indeed India --
   - name: Indeed India — C++ Low Latency
     query: 'site:indeed.co.in "C++" "low latency" OR "HFT" OR "high frequency trading" OR "exchange connectivity" Pune OR Mumbai OR Bangalore'
     enabled: true
 
-  - name: Indeed India — FIX Protocol
-    query: 'site:indeed.co.in "FIX protocol" OR "trading systems" "C++" "senior" Pune OR Mumbai'
+  - name: Indeed India — FIX Protocol C++
+    query: 'site:indeed.co.in "FIX protocol" OR "trading systems" "C++" "senior" Pune OR Mumbai OR Bangalore'
     enabled: true
 
-  # -- IIMJobs (India premium) --
-  - name: IIMJobs — C++ Trading
+  - name: IIMJobs — C++ Trading India
     query: 'site:iimjobs.com "C++" "trading" OR "low latency" OR "capital markets" "senior" OR "lead"'
     enabled: true
 
-  # -- Global HFT job boards --
-  - name: eFinancialCareers — C++ HFT
+  - name: LinkedIn — C++ Low Latency India
+    query: '"C++ Engineer" OR "C++ Developer" "low latency" OR "high frequency" OR "HFT" India site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — Exchange Connectivity India
+    query: '"exchange connectivity" OR "market connectivity" OR "FIX protocol" "C++" India site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — C++ Trading India
+    query: '"trading systems" OR "electronic trading" OR "algo trading" "C++" "senior" OR "lead" India site:linkedin.com/jobs'
+    enabled: true
+
+  - name: eFinancialCareers — C++ India
+    query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" OR "FIX" India OR Pune OR Mumbai OR Bangalore'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 2: HONG KONG
+  # ============================================================
+
+  - name: eFinancialCareers — C++ HK
+    query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" OR "FIX" "Hong Kong" OR "Hongkong"'
+    enabled: true
+
+  - name: LinkedIn — C++ HFT Hong Kong
+    query: '"C++" "low latency" OR "HFT" OR "exchange connectivity" "Hong Kong" site:linkedin.com/jobs'
+    enabled: true
+
+  - name: JobsDB — C++ Trading HK
+    query: 'site:jobsdb.com/hk "C++" "trading" OR "low latency" OR "HFT" OR "FIX protocol"'
+    enabled: true
+
+  - name: Glassdoor — C++ HFT Hong Kong
+    query: 'site:glassdoor.com "C++" "low latency" OR "HFT" OR "trading" "Hong Kong"'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 3: SINGAPORE
+  # ============================================================
+
+  - name: eFinancialCareers — C++ Singapore
+    query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" OR "FIX" Singapore'
+    enabled: true
+
+  - name: LinkedIn — C++ HFT Singapore
+    query: '"C++" "low latency" OR "HFT" OR "exchange connectivity" Singapore site:linkedin.com/jobs'
+    enabled: true
+
+  - name: JobsDB — C++ Trading Singapore
+    query: 'site:jobsdb.com/sg "C++" "trading" OR "low latency" OR "HFT" OR "FIX protocol"'
+    enabled: true
+
+  - name: Indeed Singapore — C++ Trading
+    query: 'site:sg.indeed.com "C++" "trading" OR "low latency" OR "HFT" OR "exchange connectivity"'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 4: LONDON (UK)
+  # ============================================================
+
+  - name: eFinancialCareers — C++ London
+    query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" OR "FIX" London OR UK'
+    enabled: true
+
+  - name: LinkedIn — C++ HFT London
+    query: '"C++" "low latency" OR "HFT" OR "exchange connectivity" London site:linkedin.com/jobs'
+    enabled: true
+
+  - name: CityJobs — C++ Trading London
+    query: 'site:cityjobs.com "C++" "trading" OR "low latency" OR "HFT" OR "electronic trading"'
+    enabled: true
+
+  - name: Indeed UK — C++ HFT
+    query: 'site:indeed.co.uk "C++" "low latency" OR "high frequency trading" OR "HFT" OR "exchange connectivity"'
+    enabled: true
+
+  - name: TotalJobs — C++ Trading UK
+    query: 'site:totaljobs.com "C++" "low latency" OR "trading" OR "HFT" OR "electronic trading"'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 5: NETHERLANDS (Amsterdam)
+  # ============================================================
+
+  - name: LinkedIn — C++ HFT Amsterdam
+    query: '"C++" "low latency" OR "HFT" OR "trading" "Amsterdam" OR "Netherlands" site:linkedin.com/jobs'
+    enabled: true
+
+  - name: eFinancialCareers — C++ Netherlands
+    query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" Amsterdam OR Netherlands'
+    enabled: true
+
+  - name: Indeed Netherlands — C++ Trading
+    query: 'site:indeed.com/jobs "C++" "low latency" OR "trading" OR "HFT" Amsterdam OR Netherlands'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 6: GERMANY (Frankfurt, Munich, Berlin)
+  # ============================================================
+
+  - name: LinkedIn — C++ HFT Germany
+    query: '"C++" "low latency" OR "HFT" OR "trading" "Frankfurt" OR "Munich" OR "Berlin" OR "Germany" site:linkedin.com/jobs'
+    enabled: true
+
+  - name: eFinancialCareers — C++ Germany
+    query: 'site:efinancialcareers.com "C++" "trading" OR "low latency" OR "HFT" Frankfurt OR Munich OR Germany'
+    enabled: true
+
+  - name: StepStone — C++ Trading Germany
+    query: 'site:stepstone.de "C++" "trading" OR "low latency" OR "HFT" OR "Hochfrequenzhandel"'
+    enabled: true
+
+  - name: XING — C++ Trading Germany
+    query: 'site:xing.com/jobs "C++" "trading" OR "low latency" OR "HFT" OR "Fintech" Frankfurt OR Munich'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 7: JAPAN (Tokyo)
+  # ============================================================
+
+  - name: LinkedIn — C++ HFT Japan
+    query: '"C++" "low latency" OR "HFT" OR "trading" "Tokyo" OR "Japan" site:linkedin.com/jobs'
+    enabled: true
+
+  - name: eFinancialCareers — C++ Japan
+    query: 'site:efinancialcareers.com "C++" "trading" OR "low latency" OR "HFT" Tokyo OR Japan'
+    enabled: true
+
+  - name: GaijinPot — C++ Engineering Japan
+    query: 'site:gaijinpot.com "C++" "trading" OR "financial" OR "fintech" Tokyo'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 8: USA (Chicago, New York, Austin)
+  # ============================================================
+
+  - name: eFinancialCareers — C++ HFT USA
+    query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" OR "exchange connectivity" "New York" OR "Chicago" OR "USA"'
+    enabled: true
+
+  - name: LinkedIn — C++ HFT Chicago NYC
+    query: '"C++" "low latency" OR "HFT" OR "exchange connectivity" "Chicago" OR "New York" site:linkedin.com/jobs'
+    enabled: true
+
+  - name: Indeed USA — C++ Low Latency
+    query: 'site:indeed.com "C++ engineer" OR "C++ developer" "low latency" OR "high frequency trading" OR "HFT"'
+    enabled: true
+
+  - name: Dice — C++ Trading USA
+    query: 'site:dice.com "C++" "trading" OR "low latency" OR "HFT" OR "exchange" "senior" OR "lead"'
+    enabled: true
+
+  - name: Glassdoor — C++ HFT USA
+    query: 'site:glassdoor.com "C++" "low latency" OR "high frequency trading" OR "HFT" Chicago OR "New York"'
+    enabled: true
+
+  # ============================================================
+  # PRIORITY 9: CANADA (Toronto, Montreal)
+  # ============================================================
+
+  - name: LinkedIn — C++ Trading Canada
+    query: '"C++" "low latency" OR "trading" OR "electronic trading" "Toronto" OR "Montreal" OR "Canada" site:linkedin.com/jobs'
+    enabled: true
+
+  - name: eFinancialCareers — C++ Canada
+    query: 'site:efinancialcareers.com "C++" "trading" OR "low latency" OR "HFT" Toronto OR Canada'
+    enabled: true
+
+  - name: Indeed Canada — C++ Trading
+    query: 'site:ca.indeed.com "C++" "trading" OR "low latency" OR "HFT" OR "exchange connectivity"'
+    enabled: true
+
+  # ============================================================
+  # GLOBAL — ATS Portals (Company-level discovery, all locations)
+  # ============================================================
+
+  - name: Greenhouse — C++ Trading Global
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "C++" "trading" OR "low latency" OR "HFT" OR "exchange"'
+    enabled: true
+
+  - name: Greenhouse — FIX Protocol Global
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "FIX protocol" OR "exchange connectivity" OR "market data" "C++"'
+    enabled: true
+
+  - name: Ashby — HFT C++ Global
+    query: 'site:jobs.ashbyhq.com "C++" "low latency" OR "trading" OR "HFT" OR "quantitative"'
+    enabled: true
+
+  - name: Lever — C++ Trading Global
+    query: 'site:jobs.lever.co "C++" "low latency" OR "trading" OR "HFT" OR "exchange connectivity"'
+    enabled: true
+
+  - name: eFinancialCareers — C++ HFT Global
     query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" OR "exchange connectivity"'
     enabled: true
 
-  - name: eFinancialCareers — FIX Protocol
+  - name: eFinancialCareers — Quant Developer C++
+    query: 'site:efinancialcareers.com "quantitative developer" OR "quant developer" "C++" senior OR lead'
+    enabled: true
+
+  - name: eFinancialCareers — FIX Protocol Global
     query: 'site:efinancialcareers.com "FIX protocol" OR "market connectivity" "C++" "senior" OR "lead"'
     enabled: true
 
-  - name: eFinancialCareers — Quant Developer C++
-    query: 'site:efinancialcareers.com "quantitative developer" OR "quant developer" "C++" remote OR India OR Singapore'
-    enabled: true
-
-  # -- Glassdoor --
-  - name: Glassdoor — C++ HFT
-    query: 'site:glassdoor.com/job-listing "C++" "low latency" OR "high frequency trading" OR "HFT"'
-    enabled: true
-
-  # -- Wellfound / AngelList --
-  - name: Wellfound — C++ Trading Startups
-    query: 'site:wellfound.com "C++" "trading" OR "fintech" OR "low latency" senior engineer'
-    enabled: true
-
-  # -- Remote HFT / Trading --
-  - name: RemoteOK — C++ Trading
+  - name: RemoteOK — C++ Trading Remote
     query: 'site:remoteok.com "C++" "trading" OR "low latency" OR "HFT" OR "fintech"'
     enabled: true
 
-  - name: WeWorkRemotely — C++ Trading
+  - name: WeWorkRemotely — C++ Trading Remote
     query: 'site:weworkremotely.com "C++" "trading" OR "low latency" OR "fintech"'
     enabled: true
 
-  # -- Company career pages via websearch --
+  - name: HN Who's Hiring — C++ Trading
+    query: 'site:news.ycombinator.com "C++" "low latency" OR "HFT" OR "trading" OR "exchange connectivity" "Who is Hiring"'
+    enabled: true
+
+  # ============================================================
+  # DIRECT COMPANY CAREER PAGE SEARCHES (ALL REGIONS)
+  # ============================================================
+
   - name: Citadel — C++ Careers
     query: 'site:citadelsecurities.com/careers OR site:citadel.com/careers "C++" OR "engineer" "trading" OR "connectivity"'
     enabled: true
 
-  - name: Optiver — C++ Careers
-    query: 'site:optiver.com/careers "C++" OR "software engineer" OR "developer" "trading" OR "low latency"'
+  - name: Optiver — C++ Careers (Amsterdam/Chicago/Sydney/Mumbai)
+    query: 'site:optiver.com/working-at-optiver/career-opportunities "C++" OR "software engineer" "trading" OR "low latency"'
     enabled: true
 
-  - name: IMC Trading — Careers
-    query: 'site:imc.com/careers OR site:imc.com "C++" OR "software engineer" "trading" OR "low latency"'
+  - name: IMC Trading — Careers (Amsterdam/Chicago/Sydney/Mumbai)
+    query: 'site:imc.com "C++" OR "software engineer" "trading" OR "low latency"'
     enabled: true
 
-  - name: Jane Street — Tech Roles
+  - name: Jane Street — Tech Roles (NYC/London/HK/Amsterdam)
     query: 'site:janestreet.com/join-jane-street "software engineer" OR "C++" OR "developer"'
     enabled: true
 
-  - name: Tower Research — Careers
-    query: 'site:tower-research.com/careers "C++" OR "software" OR "developer" "trading" OR "connectivity"'
+  - name: Tower Research — Careers (NYC/London/Singapore)
+    query: 'site:tower-research.com/careers "C++" OR "software" OR "developer"'
     enabled: true
 
-  - name: HRT — Careers
+  - name: HRT — Careers (NYC/London/Singapore/Mumbai/Bangalore)
     query: 'site:hudsonrivertrading.com/careers "software engineer" OR "C++" OR "developer"'
     enabled: true
 
-  - name: Jump Trading — Careers
+  - name: Jump Trading — Careers (Chicago/NYC/London/Singapore/Mumbai/Bangalore)
     query: 'site:jumptrading.com/careers "software engineer" OR "C++" OR "developer"'
     enabled: true
 
-  - name: Flow Traders — Careers
-    query: 'site:flowtraders.com/careers "C++" OR "software engineer" OR "developer"'
+  - name: Flow Traders — Careers (Amsterdam/NYC/Singapore/HK)
+    query: 'site:flowtraders.com/careers "C++" OR "software engineer"'
     enabled: true
 
-  - name: Virtu Financial — Careers
-    query: 'site:virtu.com/careers "C++" OR "software engineer" OR "developer"'
+  - name: Virtu Financial — Careers (NYC/Dublin/Singapore)
+    query: 'site:virtu.com/careers "C++" OR "software engineer"'
     enabled: true
 
-  - name: SIG — Careers India/Global
-    query: 'site:sig.com/careers "C++" OR "software engineer" OR "developer"'
+  - name: SIG — Careers (Bala Cynwyd/London/Dublin)
+    query: 'site:sig.com/careers "C++" OR "software engineer"'
     enabled: true
 
-  - name: ION Group — Careers
-    query: 'site:iongroup.com/careers "C++" OR "software engineer" OR "developer" "trading" OR "FIX" OR "connectivity"'
+  - name: ION Group — Careers (Dublin/London/NYC)
+    query: 'site:iongroup.com/careers "C++" OR "software engineer" "trading" OR "FIX" OR "connectivity"'
     enabled: true
 
-  - name: FIS Global — Careers
-    query: 'site:fisglobal.com/careers "C++" OR "software engineer" "trading" OR "connectivity" OR "FIX"'
+  - name: FIS Global — Careers (Pune/Global)
+    query: 'site:jobs.fisglobal.com "C++" OR "software engineer" "trading" OR "connectivity" OR "FIX"'
     enabled: true
 
-  - name: Broadridge — Careers
-    query: 'site:broadridge.com/careers "C++" OR "software engineer" "trading" OR "capital markets"'
-    enabled: true
-
-  # -- HN Who's Hiring -- Trading/C++ --
-  - name: HN Who's Hiring — C++ Trading
-    query: 'site:news.ycombinator.com "C++" "low latency" OR "HFT" OR "trading" OR "exchange connectivity" "Who is Hiring"'
+  - name: Broadridge — Careers (NYC/London/Mumbai)
+    query: 'site:careers.broadridge.com "C++" OR "software engineer" "trading" OR "capital markets"'
     enabled: true
 
 # -- Tracked companies --

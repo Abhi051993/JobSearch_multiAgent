@@ -1,216 +1,231 @@
-# Modo: oferta — Evaluación Completa A-G
+# Mode: oferta — Full Evaluation A-G (HFT / C++ Roles)
 
-Cuando el candidato pega una oferta (texto o URL), entregar SIEMPRE los 7 bloques (A-F evaluation + G legitimacy):
+When the candidate pastes a job offer (text or URL), ALWAYS deliver all 7 blocks (A-F evaluation + G legitimacy).
 
-## Paso 0 — Detección de Arquetipo
+**CRITICAL: NEVER submit or auto-apply. Show score and match % so the candidate decides.**
 
-Clasificar la oferta en uno de los 6 arquetipos (ver `_shared.md`). Si es híbrido, indicar los 2 más cercanos. Esto determina:
-- Qué proof points priorizar en bloque B
-- Cómo reescribir el summary en bloque E
-- Qué historias STAR preparar en bloque F
+## Step 0 — Archetype Detection
 
-## Bloque A — Resumen del Rol
+Classify the offer into one of the 6 HFT/trading archetypes (see `_profile.md`). If hybrid, indicate the 2 closest. This determines:
+- Which proof points to prioritize in Block B
+- How to reframe the summary in Block E
+- Which STAR stories to prepare in Block F
 
-Tabla con:
-- Arquetipo detectado
-- Domain (platform/agentic/LLMOps/ML/enterprise)
-- Function (build/consult/manage/deploy)
+## Block A — Role Summary
+
+Table with:
+- Detected Archetype
+- Domain (HFT / exchange connectivity / OMS / market data / infra)
+- Function (build / support / design / optimize)
 - Seniority
-- Remote (full/hybrid/onsite)
-- Team size (si se menciona)
-- TL;DR en 1 frase
+- Location + Remote policy
+- Team size (if mentioned)
+- TL;DR in 1 sentence
 
-## Bloque B — Match con CV
+## Block B — Match with CV
 
-Lee `cv.md`. Crea tabla con cada requisito del JD mapeado a líneas exactas del CV.
+Read `cv.md` and `modes/_profile.md`. Create table mapping each JD requirement to exact lines from the CV.
 
-**Adaptado al arquetipo:**
-- Si FDE → priorizar proof points de delivery rápida y client-facing
-- Si SA → priorizar diseño de sistemas e integrations
-- Si PM → priorizar product discovery y métricas
-- Si LLMOps → priorizar evals, observability, pipelines
-- Si Agentic → priorizar multi-agent, HITL, orchestration
-- Si Transformation → priorizar change management, adoption, scaling
+**Adapted by archetype:**
+- HFT / Latency → prioritize FIS gateway work, performance tuning, Valgrind, lock-free/multithreading
+- Exchange Gateway → prioritize SEHK/SCHK/ASX/NSE FO/KRX experience, FIX + Binary FIX + native protocols
+- Client Connectivity → prioritize Credit Suisse FIX connectivity, order normalization, L3 support
+- OMS / EMS → prioritize BNP Paribas trade lifecycle, swap/hedge OMS, regulatory reporting
+- Market Data → prioritize 63 Moons ODIN, multithreaded market-data processing, MFC
+- Trading Infra → prioritize full-stack depth: IB + fintech vendor + production support breadth
 
-Sección de **gaps** con estrategia de mitigación para cada uno. Para cada gap:
-1. ¿Es un hard blocker o un nice-to-have?
-2. ¿Puede el candidato demostrar experiencia adyacente?
-3. ¿Hay un proyecto portfolio que cubra este gap?
-4. Plan de mitigación concreto (frase para cover letter, proyecto rápido, etc.)
+**Gap analysis** for each gap found:
+1. Hard blocker or nice-to-have?
+2. Can Abhishek demonstrate adjacent experience?
+3. Mitigation plan (cover letter phrase, parallel experience, adjacent skill)
 
-## Bloque C — Nivel y Estrategia
+**Scoring weights (from _profile.md — APPLY THESE):**
+- C++ as primary language → mandatory; tech fit ≤ 2.0 if absent → recommend SKIP
+- Low-latency / HFT / algo trading explicitly stated → +0.5
+- FIX Protocol / exchange connectivity → +0.3
+- Linux/Unix environment → baseline expectation; Windows-only → -0.2
+- Non-financial domain (embedded, automotive, gaming, telecom) → domain ≤ 1.5 → SKIP
 
-1. **Nivel detectado** en el JD vs **nivel natural del candidato para ese arquetipo**
-2. **Plan "vender senior sin mentir"**: frases específicas adaptadas al arquetipo, logros concretos a destacar, cómo posicionar la experiencia de founder como ventaja
-3. **Plan "si me downlevelan"**: aceptar si comp es justa, negociar review a 6 meses, criterios de promoción claros
+## Block C — Level and Strategy
 
-## Bloque D — Comp y Demanda
+1. **Level detected** in JD vs Abhishek's natural level (Senior Lead, 10+ years)
+2. **"Sell senior without lying" plan**: specific phrases, exact achievements, multi-exchange breadth (5 exchanges) as differentiator
+3. **"If downlevelled" plan**: accept only if comp is fair + 6-month review milestone agreed
 
-Usar WebSearch para:
-- Salarios actuales del rol (Glassdoor, Levels.fyi, Blind)
-- Reputación de compensación de la empresa
-- Tendencia de demanda del rol
+## Block D — Comp and Market
 
-Tabla con datos y fuentes citadas. Si no hay datos, decirlo en vez de inventar.
+Use WebSearch for current salaries:
+- India roles: Glassdoor India, Naukri Salary, LinkedIn Salary India, Blind India
+- Global roles: eFinancialCareers, Glassdoor, Levels.fyi, Blind
 
-## Bloque E — Plan de Personalización
+Comp reference from `config/profile.yml`:
+- India: ₹40L–70L CTC target; walk-away ₹35L
+- Singapore / HK / London: $120K–180K USD equivalent
 
-| # | Sección | Estado actual | Cambio propuesto | Por qué |
-|---|---------|---------------|------------------|---------|
+Table with data and cited sources. If no data, say so rather than invent.
+
+Comp score (1-5): 5=top quartile HFT comp, 4=above-market IB/fintech, 3=median, 2=slightly below, 1=well below.
+
+## Block E — Personalization Plan
+
+| # | Section | Current state | Proposed change | Why |
+|---|---------|---------------|-----------------|-----|
 | 1 | Summary | ... | ... | ... |
-| ... | ... | ... | ... | ... |
 
-Top 5 cambios al CV + Top 5 cambios a LinkedIn para maximizar match.
+Top 5 CV changes + Top 5 LinkedIn changes. Focus on:
+- Injecting exchange names that match JD (SEHK, ASX, NSE FO, KRX, or whatever JD mentions)
+- Surfacing protocol specifics (FIX version, Binary FIX, SBE, ITCH/OUCH) matching JD vocabulary
+- Reordering experience bullets by JD priority
+- Adding any latency metrics if they exist in cv.md
 
-## Bloque F — Plan de Entrevistas
+## Block F — Interview Prep
 
-6-10 historias STAR+R mapeadas a requisitos del JD (STAR + **Reflection**):
+6-10 STAR+R stories mapped to JD requirements:
 
-| # | Requisito del JD | Historia STAR+R | S | T | A | R | Reflection |
-|---|-----------------|-----------------|---|---|---|---|------------|
+| # | JD Requirement | STAR+R Story | S | T | A | R | Reflection |
+|---|---------------|--------------|---|---|---|---|------------|
 
-The **Reflection** column captures what was learned or what would be done differently. This signals seniority — junior candidates describe what happened, senior candidates extract lessons.
+**Reflection column**: What was learned or what would be done differently — signals seniority.
 
-**Story Bank:** If `interview-prep/story-bank.md` exists, check if any of these stories are already there. If not, append new ones. Over time this builds a reusable bank of 5-10 master stories that can be adapted to any interview question.
+**Story bank**: If `interview-prep/story-bank.md` exists, check for existing stories. Append new ones.
 
-**Seleccionadas y enmarcadas según el arquetipo:**
-- FDE → enfatizar velocidad de entrega y client-facing
-- SA → enfatizar decisiones de arquitectura
-- PM → enfatizar discovery y trade-offs
-- LLMOps → enfatizar métricas, evals, production hardening
-- Agentic → enfatizar orchestration, error handling, HITL
-- Transformation → enfatizar adopción, cambio organizacional
+**Archetype-adapted selection:**
+- HFT / Latency → emphasize profiling results, bottleneck root cause, quantifiable improvement
+- Exchange Gateway → emphasize protocol complexity, go-live, incident resolution
+- OMS / EMS → emphasize order lifecycle correctness, risk controls, regulatory compliance
+- Market Data → emphasize throughput, message processing, recovery scenarios
 
-Incluir también:
-- 1 case study recomendado (cuál de sus proyectos presentar y cómo)
-- Preguntas red-flag y cómo responderlas (ej: "¿por qué vendiste tu empresa?", "¿tienes equipo de reports?")
+Also include:
+- 1 technical deep-dive topic (e.g., "walk me through your FIX gateway design")
+- Red-flag questions and how to answer them
+- Trading domain-specific prep questions
 
-## Bloque G — Posting Legitimacy
+## Block G — Posting Legitimacy
 
-Analyze the job posting for signals that indicate whether this is a real, active opening. This helps the user prioritize their effort on opportunities most likely to result in a hiring process.
+Analyze the posting for signals that indicate whether it is a real, active opening.
 
-**Ethical framing:** Present observations, not accusations. Every signal has legitimate explanations. The user decides how to weigh them.
+**Ethical framing**: Present observations, not accusations. The candidate decides how to weigh them.
 
-### Signals to analyze (in order):
+### Signals to analyze:
 
-**1. Posting Freshness** (from Playwright snapshot, already captured in Paso 0):
-- Date posted or "X days ago" -- extract from page
-- Apply button state (active / closed / missing / redirects to generic page)
-- If URL redirected to generic careers page, note it
+**1. Posting Freshness** (from Playwright snapshot):
+- Date posted or "X days ago"
+- Apply button state (active / closed / missing)
+- If URL redirected to generic careers page, flag it
 
 **2. Description Quality** (from JD text):
-- Does it name specific technologies, frameworks, tools?
-- Does it mention team size, reporting structure, or org context?
+- Does it name specific exchange names, protocols, tools?
+- Does it mention team size, reporting structure?
 - Are requirements realistic? (years of experience vs technology age)
-- Is there a clear scope for the first 6-12 months?
 - Is salary/compensation mentioned?
-- What ratio of the JD is role-specific vs generic boilerplate?
-- Any internal contradictions? (entry-level title + staff requirements, etc.)
+- Ratio of role-specific vs generic boilerplate?
+- Any internal contradictions? (e.g., "entry-level" title + 10 years experience required)
 
-**3. Company Hiring Signals** (2-3 WebSearch queries, combine with Block D research):
-- Search: `"{company}" layoffs {year}` -- note date, scale, departments
-- Search: `"{company}" hiring freeze {year}` -- note any announcements
-- If layoffs found: are they in the same department as this role?
+**3. Company Hiring Signals** (WebSearch, combine with Block D):
+- `"{company}" layoffs {year}` — note date, scale, affected departments
+- `"{company}" hiring freeze {year}` — note any announcements
 
-**4. Reposting Detection** (from scan-history.tsv):
-- Check if company + similar role title appeared before with a different URL
-- Note how many times and over what period
+**4. Reposting Detection** (from data/scan-history.tsv):
+- Same company + similar role title with different URL
+- Note frequency and time span
 
-**5. Role Market Context** (qualitative, no additional queries):
-- Is this a common role that typically fills in 4-6 weeks?
-- Does the role make sense for this company's business?
-- Is the seniority level one that legitimately takes longer to fill?
+**5. Role Market Context** (qualitative):
+- Is this a common trading tech role or a niche one?
+- Does this role make sense for this company's trading operations?
 
 ### Output format:
 
 **Assessment:** One of three tiers:
-- **High Confidence** -- Multiple signals suggest a real, active opening
-- **Proceed with Caution** -- Mixed signals worth noting
-- **Suspicious** -- Multiple ghost job indicators, investigate before investing time
+- **High Confidence** — Multiple signals suggest a real, active opening
+- **Proceed with Caution** — Mixed signals worth noting
+- **Suspicious** — Multiple ghost job indicators; investigate before investing time
 
-**Signals table:** Each signal observed with its finding and weight (Positive / Neutral / Concerning).
+**Signals table**: Each signal with finding and weight (Positive / Neutral / Concerning).
 
-**Context Notes:** Any caveats (niche role, government job, evergreen position, etc.) that explain potentially concerning signals.
-
-### Edge case handling:
-- **Government/academic postings:** Longer timelines are standard. Adjust thresholds (60-90 days is normal).
-- **Evergreen/continuous hire postings:** If the JD explicitly says "ongoing" or "rolling," note it as context -- this is not a ghost job, it is a pipeline role.
-- **Niche/executive roles:** Staff+, VP, Director, or highly specialized roles legitimately stay open for months. Adjust age thresholds accordingly.
-- **Startup / pre-revenue:** Early-stage companies may have vague JDs because the role is genuinely undefined. Weight description vagueness less heavily.
-- **No date available:** If posting age cannot be determined and no other signals are concerning, default to "Proceed with Caution" with a note that limited data was available. NEVER default to "Suspicious" without evidence.
-- **Recruiter-sourced (no public posting):** Freshness signals unavailable. Note that active recruiter contact is itself a positive legitimacy signal.
+**Context Notes**: Caveats (niche role, evergreen posting, government timeline, etc.).
 
 ---
 
-## Post-evaluación
+## Global Score
 
-**SIEMPRE** después de generar los bloques A-G:
+| Dimension | Score (1-5) |
+|-----------|-------------|
+| CV Match (C++ + trading domain) | X/5 |
+| North Star Alignment (HFT/low-latency fit) | X/5 |
+| Comp | X/5 |
+| Cultural / firm quality signals | X/5 |
+| Red flags | -X (if any) |
+| **GLOBAL SCORE** | **X/5 = X×20% match** |
 
-### 1. Guardar report .md
+**Score → Match % interpretation:**
 
-Guardar evaluación completa en `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`.
+| Score | Match % | Meaning | Action |
+|-------|---------|---------|--------|
+| 4.5–5.0 | 90–100% | Dream HFT role | Apply immediately |
+| 4.0–4.4 | 80–88% | Strong IB/fintech match | Apply with priority |
+| 3.5–3.9 | 70–78% | Good trading software match | Apply if bandwidth |
+| 3.0–3.4 | 60–68% | Acceptable adjacent role | Apply only if pipeline thin |
+| 2.5–2.9 | 50–58% | Weak fit | Do NOT apply — wait for better |
+| < 2.5 | < 50% | Poor fit | SKIP |
 
-- `{###}` = siguiente número secuencial (3 dígitos, zero-padded)
-- `{company-slug}` = nombre de empresa en lowercase, sin espacios (usar guiones)
-- `{YYYY-MM-DD}` = fecha actual
+---
 
-**Formato del report:**
+## Post-Evaluation (ALWAYS do these)
+
+### 1. Save report .md
+
+Save full evaluation to `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`:
+- `{###}` = next sequential number (3 digits, zero-padded)
+- `{company-slug}` = company name lowercase with hyphens
+- `{YYYY-MM-DD}` = today's date
+
+**Report format:**
 
 ```markdown
-# Evaluación: {Empresa} — {Rol}
+# Evaluation: {Company} — {Role}
 
-**Fecha:** {YYYY-MM-DD}
-**Arquetipo:** {detectado}
-**Score:** {X/5}
+**Date:** {YYYY-MM-DD}
+**Archetype:** {detected}
+**Score:** {X/5} ({X×20}% profile match)
 **Legitimacy:** {High Confidence | Proceed with Caution | Suspicious}
-**PDF:** {ruta o pendiente}
+**URL:** {original job URL}
+**PDF:** {path or pending}
 
 ---
 
-## A) Resumen del Rol
-(contenido completo del bloque A)
+## A) Role Summary
+(full block content)
 
-## B) Match con CV
-(contenido completo del bloque B)
+## B) CV Match
+(full block content)
 
-## C) Nivel y Estrategia
-(contenido completo del bloque C)
+## C) Level and Strategy
+(full block content)
 
-## D) Comp y Demanda
-(contenido completo del bloque D)
+## D) Comp and Market
+(full block content)
 
-## E) Plan de Personalización
-(contenido completo del bloque E)
+## E) Personalization Plan
+(full block content)
 
-## F) Plan de Entrevistas
-(contenido completo del bloque F)
+## F) Interview Prep
+(full block content)
 
 ## G) Posting Legitimacy
-(contenido completo del bloque G)
-
-## H) Draft Application Answers
-(solo si score >= 4.5 — borradores de respuestas para el formulario de aplicación)
+(full block content)
 
 ---
 
-## Keywords extraídas
-(lista de 15-20 keywords del JD para ATS optimization)
+## ATS Keywords Extracted
+(15-20 keywords from JD)
 ```
 
-### 2. Registrar en tracker
+### 2. Register in tracker
 
-**SIEMPRE** registrar en `data/applications.md`:
-- Siguiente número secuencial
-- Fecha actual
-- Empresa
-- Rol
-- Score: promedio de match (1-5)
-- Estado: `Evaluada`
-- PDF: ❌ (o ✅ si auto-pipeline generó PDF)
-- Report: link relativo al report .md (ej: `[001](reports/001-company-2026-01-01.md)`)
+Write TSV to `batch/tracker-additions/{sequential}.tsv` (NEVER edit applications.md directly):
 
-**Formato del tracker:**
-
-```markdown
-| # | Fecha | Empresa | Rol | Score | Estado | PDF | Report |
 ```
+{num}\t{date}\t{company}\t{role}\tEvaluated\t{X.X}/5\t❌\t[{num}](reports/{###}-{slug}-{date}.md)\t{1-sentence note with match %}
+```
+
+Example note: `4.2/5 (84% match) — Strong FIX gateway fit; apply — Optiver Mumbai`

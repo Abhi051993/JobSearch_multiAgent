@@ -25,22 +25,25 @@
 
 ## Scoring System
 
-The evaluation uses 6 blocks (A-F) with a global score of 1-5:
+The evaluation uses 6 blocks (A-F) with a global score of 1-5 (displayed as match %):
 
 | Dimension | What it measures |
 |-----------|-----------------|
-| Match con CV | Skills, experience, proof points alignment |
-| North Star alignment | How well the role fits the user's target archetypes (from _profile.md) |
-| Comp | Salary vs market (5=top quartile, 1=well below) |
-| Cultural signals | Company culture, growth, stability, remote policy |
+| CV Match | C++ + trading domain skills and experience alignment |
+| North Star alignment | How well the role fits HFT/low-latency archetypes (from _profile.md) |
+| Comp | Salary vs market (5=top quartile HFT, 1=well below) |
+| Cultural signals | Firm quality, stability, remote policy, India/APAC presence |
 | Red flags | Blockers, warnings (negative adjustments) |
-| **Global** | Weighted average of above |
+| **Global** | Weighted average — shown as X/5 AND X×20% match |
 
-**Score interpretation:**
-- 4.5+ → Strong match, recommend applying immediately
-- 4.0-4.4 → Good match, worth applying
-- 3.5-3.9 → Decent but not ideal, apply only if specific reason
-- Below 3.5 → Recommend against applying (see Ethical Use in CLAUDE.md)
+**Score → Match % interpretation:**
+- 4.5–5.0 (90–100%) → Dream HFT role — apply immediately
+- 4.0–4.4 (80–88%) → Strong IB/fintech match — apply with priority
+- 3.5–3.9 (70–78%) → Good trading software match — apply if bandwidth
+- 3.0–3.4 (60–68%) → Acceptable adjacent role — apply only if pipeline thin
+- < 3.0 (< 60%) → Weak/poor fit — SKIP, not worth time
+
+**CRITICAL: Non-C++ roles or non-financial domain → always score ≤ 2.0 and recommend SKIP.**
 
 ## Posting Legitimacy (Block G)
 
@@ -72,18 +75,18 @@ Block G assesses whether a posting is likely a real, active opening. It does NOT
 
 ## Archetype Detection
 
-Classify every offer into one of these types (or hybrid of 2):
+Classify every offer into one of these HFT/trading types (or hybrid of 2):
 
 | Archetype | Key signals in JD |
 |-----------|-------------------|
-| AI Platform / LLMOps | "observability", "evals", "pipelines", "monitoring", "reliability" |
-| Agentic / Automation | "agent", "HITL", "orchestration", "workflow", "multi-agent" |
-| Technical AI PM | "PRD", "roadmap", "discovery", "stakeholder", "product manager" |
-| AI Solutions Architect | "architecture", "enterprise", "integration", "design", "systems" |
-| AI Forward Deployed | "client-facing", "deploy", "prototype", "fast delivery", "field" |
-| AI Transformation | "change management", "adoption", "enablement", "transformation" |
+| HFT / Low-Latency C++ | "low latency", "high frequency", "HFT", "nanosecond", "microsecond", "kernel bypass", "DPDK", "CPU affinity", "lock-free", "SIMD" |
+| Exchange Connectivity / Gateway | "exchange gateway", "FIX protocol", "Binary FIX", "ITCH", "OUCH", "SBE", "native exchange protocol", "exchange connectivity", "market connectivity" |
+| Trading Infrastructure | "order routing", "market data", "co-location", "feed handler", "matching engine", "FPGA", "RDMA" |
+| FIX Protocol / Market Connectivity | "FIX engine", "QuickFIX", "FIX 4.x", "FIX 5.0", "client connectivity", "broker connectivity", "DMA" |
+| OMS / EMS C++ | "order management", "execution management", "OMS", "EMS", "order lifecycle", "position management", "risk" |
+| Quantitative Developer | "quant developer", "strategy infrastructure", "backtesting", "signal", "alpha", "systematic trading" |
 
-After detecting archetype, read `modes/_profile.md` for the user's specific framing and proof points for that archetype.
+After detecting archetype, read `modes/_profile.md` for Abhishek's specific framing and proof points for that archetype.
 
 ## Global Rules
 
