@@ -1,0 +1,114 @@
+# Career-Ops Profile Configuration — Abhishek Kumbhar
+# HFT / Low-Latency C++ Developer Job Search
+
+candidate:
+  full_name: "Abhishek Kumbhar"
+  email: "kumbharabhishek05@gmail.com"
+  phone: "+91-9960554546"
+  location: "Pune, India"
+  linkedin: "linkedin.com/in/abhishek-kumbhar"
+  portfolio_url: ""
+  github: "github.com/Abhi051993"
+
+target_roles:
+  primary:
+    - "Senior C++ Engineer – Low Latency Trading"
+    - "Lead C++ Developer – HFT / Exchange Connectivity"
+    - "C++ Software Engineer – Market Connectivity"
+    - "Quantitative Developer – C++ / FIX Protocol"
+    - "Senior Software Engineer – Trading Systems"
+  archetypes:
+    - name: "HFT / Low-Latency C++ Engineer"
+      level: "Senior/Lead"
+      fit: "primary"
+    - name: "Exchange Connectivity Developer"
+      level: "Senior/Lead"
+      fit: "primary"
+    - name: "Trading Infrastructure Engineer"
+      level: "Senior/Lead"
+      fit: "primary"
+    - name: "FIX Protocol / Market Connectivity Engineer"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Quantitative Developer (C++)"
+      level: "Senior"
+      fit: "secondary"
+    - name: "OMS / EMS Developer"
+      level: "Senior"
+      fit: "secondary"
+
+narrative:
+  headline: "10+ year C++ engineer specializing in HFT, exchange gateways, and low-latency order routing"
+  exit_story: "Deep hands-on expertise across the full trading stack — from exchange adapters (SEHK, ASX, NSE FO, KRX) and FIX/Binary FIX protocol engineering to OMS front-to-back lifecycle at Credit Suisse, BNP Paribas, FIS Global, and 63 Moons."
+  superpowers:
+    - "Exchange gateway design and implementation (FIX, Binary FIX, native protocols)"
+    - "Low-latency order routing and message normalization pipelines"
+    - "L3 production support and root cause analysis for mission-critical trading systems"
+    - "Multi-exchange market connectivity (SEHK, SCHK, ASX, NSE FO, KRX)"
+    - "Performance tuning and Valgrind-driven debugging of C++ trading components"
+  deal_breakers:
+    - "Non-trading C++ roles (embedded, automotive, gaming)"
+    - "Roles primarily in Java or Python with no C++ core"
+    - "No financial services or capital markets domain"
+  proof_points:
+    - name: "FIS Global – Multi-Exchange Gateway"
+      hero_metric: "Designed and built exchange connectivity for 5 exchanges (SEHK, SCHK, ASX, NSE FO, KRX) with Binary FIX and native protocols"
+    - name: "Credit Suisse – FIX Client Connectivity"
+      hero_metric: "Built FIX-based order routing between external clients and internal trading platforms; delivered L3 production support"
+    - name: "BNP Paribas – Global Markets OMS"
+      hero_metric: "Front-to-back trade lifecycle for swap and hedge OMS supporting Global Markets trading workflows"
+    - name: "63 Moons – ODIN Trading Platform"
+      hero_metric: "Built multithreaded C++ and MFC modules for market-data processing and order flow on Indian capital markets"
+
+compensation:
+  target_range: "₹40L-70L CTC"
+  currency: "INR"
+  minimum: "₹35L CTC"
+  location_flexibility: "Pune preferred; open to Mumbai, Bangalore, Hyderabad; open to remote/hybrid for top firms"
+
+location:
+  country: "India"
+  city: "Pune"
+  timezone: "IST (UTC+5:30)"
+  visa_status: "Indian citizen — no visa needed for India; open to relocation for HFT firms abroad"
+  relocation: "Open to Singapore, London, Hong Kong for top-tier HFT firms"
+
+search_strategy:
+  focus: "HFT firms, prop trading shops, investment banks with algo/electronic trading teams, fintech market connectivity vendors"
+  avoid: "Non-financial C++ roles, pure embedded/systems roles without trading context, roles without C++ as primary language"
+  priority_companies:
+    - "Citadel Securities"
+    - "Jane Street"
+    - "Two Sigma"
+    - "Hudson River Trading"
+    - "Optiver"
+    - "IMC Trading"
+    - "Virtu Financial"
+    - "Flow Traders"
+    - "Tower Research Capital"
+    - "Jump Trading"
+    - "Susquehanna International Group (SIG)"
+    - "DRW"
+    - "Millennium Management"
+    - "WorldQuant"
+    - "Goldman Sachs (Electronic Trading)"
+    - "Morgan Stanley (Electronic Trading)"
+    - "Barclays (Electronic Trading)"
+    - "Deutsche Bank (Markets Technology)"
+    - "UBS (Electronic Trading)"
+    - "FIS Global"
+    - "ION Group"
+    - "Fidessa / Refinitiv"
+    - "Broadridge Financial"
+    - "Cboe Global Markets"
+    - "Nasdaq (Market Technology)"
+    - "BSE Technologies"
+    - "NSE Technologies"
+    - "63 Moons Technologies"
+    - "Tata Consultancy Services (Capital Markets)"
+    - "Infosys (Financial Services)"
+    - "Wipro (Capital Markets)"
+
+language:
+  modes_dir: "modes"
+  output_language: "English"

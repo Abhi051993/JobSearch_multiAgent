@@ -1,7 +1,7 @@
-# Personal data (user fills these)
-data/applications.md
-data/pipeline.md
-data/scan-history.tsv
+# Personal data — tracked in this private repo (user's own job search)
+# data/applications.md — tracked
+# data/pipeline.md — tracked
+# data/scan-history.tsv — tracked
 reports/*.md
 !reports/.gitkeep
 output/*
@@ -15,10 +15,10 @@ batch/tracker-additions/**/*.tsv
 jds/*
 !jds/.gitkeep
 
-# User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
+# User config — tracked in this private repo
+# config/profile.yml — tracked
+# portals.yml — tracked
+# modes/_profile.md — tracked
 .update-dismissed
 .update-lock
 

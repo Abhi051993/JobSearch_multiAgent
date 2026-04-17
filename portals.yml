@@ -1,0 +1,791 @@
+# Portal Scanner Configuration — Abhishek Kumbhar
+# HFT / Low-Latency C++ Developer Job Search
+# Target: Exchange Connectivity, FIX Protocol, Market Data, Trading Infrastructure
+
+# -- Title filter --
+# At least 1 positive must match AND 0 negatives must match (case-insensitive).
+
+title_filter:
+  positive:
+    # -- C++ core roles --
+    - "C++ Engineer"
+    - "C++ Developer"
+    - "C++ Software Engineer"
+    - "C++ Programmer"
+    - "Senior C++"
+    - "Lead C++"
+    - "Staff C++"
+    - "Principal C++"
+    # -- Low-latency / HFT specific --
+    - "Low Latency"
+    - "Low-Latency"
+    - "High Frequency"
+    - "High-Frequency"
+    - "HFT"
+    - "Algorithmic Trading"
+    - "Algo Trading"
+    - "Electronic Trading"
+    - "Quantitative Developer"
+    - "Quant Developer"
+    - "Quant C++"
+    # -- Exchange & market connectivity --
+    - "Exchange Connectivity"
+    - "Market Connectivity"
+    - "Exchange Gateway"
+    - "Trading Gateway"
+    - "FIX Protocol"
+    - "FIX Engineer"
+    - "Market Data"
+    - "Feed Handler"
+    - "Order Routing"
+    - "Order Management"
+    - "Execution Management"
+    # -- Trading systems broad --
+    - "Trading Systems"
+    - "Trading Infrastructure"
+    - "Trading Platform"
+    - "Capital Markets"
+    - "Investment Banking Technology"
+    - "Markets Technology"
+    - "eTrading"
+    - "Electronic Markets"
+    # -- OMS / EMS --
+    - "OMS Developer"
+    - "EMS Developer"
+    - "Order Management System"
+    - "Execution Management System"
+    # -- General seniority keywords that pair well --
+    - "Latency"
+    - "Matching Engine"
+    - "Co-location"
+    - "FPGA"
+    - "Kernel Bypass"
+    - "RDMA"
+    - "DPDK"
+  negative:
+    # Exclude non-relevant domains
+    - "Junior"
+    - "Intern"
+    - "Graduate"
+    - "Embedded"
+    - "Automotive"
+    - "Gaming"
+    - "Telecom"
+    - "Firmware"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Android"
+    - "iOS"
+    - "Mobile"
+    - "Frontend"
+    - "React"
+    - "Node.js"
+    - "Ruby"
+    - "PHP"
+    - "Mainframe"
+    - "COBOL"
+    - "SAP"
+    - "Salesforce"
+    - "DevOps only"
+    - "Data Scientist"
+    - "Machine Learning"
+    - "AI Engineer"
+    - "Cloud Engineer only"
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head of"
+    - "Director"
+    - "Vice President"
+    - "VP"
+
+# -- Search queries --
+# HFT, low-latency, and trading-specific job board searches.
+
+search_queries:
+
+  # -- LinkedIn-style job boards --
+  - name: LinkedIn — C++ Low Latency India
+    query: '"C++ Engineer" OR "C++ Developer" "low latency" OR "high frequency" OR "HFT" India site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — Exchange Connectivity C++ India
+    query: '"exchange connectivity" OR "market connectivity" OR "FIX protocol" "C++" India site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — C++ Trading Systems India
+    query: '"trading systems" OR "electronic trading" OR "algo trading" "C++" "senior" OR "lead" India site:linkedin.com/jobs'
+    enabled: true
+
+  # -- Naukri (India's largest job board) --
+  - name: Naukri — C++ Low Latency
+    query: 'site:naukri.com "C++" "low latency" OR "high frequency trading" OR "HFT" OR "exchange connectivity"'
+    enabled: true
+
+  - name: Naukri — FIX Protocol C++
+    query: 'site:naukri.com "FIX protocol" OR "Binary FIX" "C++" "senior" OR "lead" Pune OR Mumbai OR Bangalore'
+    enabled: true
+
+  - name: Naukri — Trading Systems C++
+    query: 'site:naukri.com "trading systems" OR "capital markets" "C++" "senior" OR "lead" Pune OR Mumbai'
+    enabled: true
+
+  # -- Greenhouse --
+  - name: Greenhouse — C++ Trading
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "C++" "trading" OR "low latency" OR "HFT" OR "exchange"'
+    enabled: true
+
+  - name: Greenhouse — FIX Protocol / Market Connectivity
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "FIX protocol" OR "exchange connectivity" OR "market data" "C++"'
+    enabled: true
+
+  # -- Ashby --
+  - name: Ashby — HFT / Trading C++
+    query: 'site:jobs.ashbyhq.com "C++" "low latency" OR "trading" OR "HFT" OR "quantitative"'
+    enabled: true
+
+  # -- Lever --
+  - name: Lever — C++ Trading Systems
+    query: 'site:jobs.lever.co "C++" "low latency" OR "trading" OR "HFT" OR "exchange connectivity"'
+    enabled: true
+
+  # -- Indeed India --
+  - name: Indeed India — C++ Low Latency
+    query: 'site:indeed.co.in "C++" "low latency" OR "HFT" OR "high frequency trading" OR "exchange connectivity" Pune OR Mumbai OR Bangalore'
+    enabled: true
+
+  - name: Indeed India — FIX Protocol
+    query: 'site:indeed.co.in "FIX protocol" OR "trading systems" "C++" "senior" Pune OR Mumbai'
+    enabled: true
+
+  # -- IIMJobs (India premium) --
+  - name: IIMJobs — C++ Trading
+    query: 'site:iimjobs.com "C++" "trading" OR "low latency" OR "capital markets" "senior" OR "lead"'
+    enabled: true
+
+  # -- Global HFT job boards --
+  - name: eFinancialCareers — C++ HFT
+    query: 'site:efinancialcareers.com "C++" "low latency" OR "HFT" OR "trading" OR "exchange connectivity"'
+    enabled: true
+
+  - name: eFinancialCareers — FIX Protocol
+    query: 'site:efinancialcareers.com "FIX protocol" OR "market connectivity" "C++" "senior" OR "lead"'
+    enabled: true
+
+  - name: eFinancialCareers — Quant Developer C++
+    query: 'site:efinancialcareers.com "quantitative developer" OR "quant developer" "C++" remote OR India OR Singapore'
+    enabled: true
+
+  # -- Glassdoor --
+  - name: Glassdoor — C++ HFT
+    query: 'site:glassdoor.com/job-listing "C++" "low latency" OR "high frequency trading" OR "HFT"'
+    enabled: true
+
+  # -- Wellfound / AngelList --
+  - name: Wellfound — C++ Trading Startups
+    query: 'site:wellfound.com "C++" "trading" OR "fintech" OR "low latency" senior engineer'
+    enabled: true
+
+  # -- Remote HFT / Trading --
+  - name: RemoteOK — C++ Trading
+    query: 'site:remoteok.com "C++" "trading" OR "low latency" OR "HFT" OR "fintech"'
+    enabled: true
+
+  - name: WeWorkRemotely — C++ Trading
+    query: 'site:weworkremotely.com "C++" "trading" OR "low latency" OR "fintech"'
+    enabled: true
+
+  # -- Company career pages via websearch --
+  - name: Citadel — C++ Careers
+    query: 'site:citadelsecurities.com/careers OR site:citadel.com/careers "C++" OR "engineer" "trading" OR "connectivity"'
+    enabled: true
+
+  - name: Optiver — C++ Careers
+    query: 'site:optiver.com/careers "C++" OR "software engineer" OR "developer" "trading" OR "low latency"'
+    enabled: true
+
+  - name: IMC Trading — Careers
+    query: 'site:imc.com/careers OR site:imc.com "C++" OR "software engineer" "trading" OR "low latency"'
+    enabled: true
+
+  - name: Jane Street — Tech Roles
+    query: 'site:janestreet.com/join-jane-street "software engineer" OR "C++" OR "developer"'
+    enabled: true
+
+  - name: Tower Research — Careers
+    query: 'site:tower-research.com/careers "C++" OR "software" OR "developer" "trading" OR "connectivity"'
+    enabled: true
+
+  - name: HRT — Careers
+    query: 'site:hudsonrivertrading.com/careers "software engineer" OR "C++" OR "developer"'
+    enabled: true
+
+  - name: Jump Trading — Careers
+    query: 'site:jumptrading.com/careers "software engineer" OR "C++" OR "developer"'
+    enabled: true
+
+  - name: Flow Traders — Careers
+    query: 'site:flowtraders.com/careers "C++" OR "software engineer" OR "developer"'
+    enabled: true
+
+  - name: Virtu Financial — Careers
+    query: 'site:virtu.com/careers "C++" OR "software engineer" OR "developer"'
+    enabled: true
+
+  - name: SIG — Careers India/Global
+    query: 'site:sig.com/careers "C++" OR "software engineer" OR "developer"'
+    enabled: true
+
+  - name: ION Group — Careers
+    query: 'site:iongroup.com/careers "C++" OR "software engineer" OR "developer" "trading" OR "FIX" OR "connectivity"'
+    enabled: true
+
+  - name: FIS Global — Careers
+    query: 'site:fisglobal.com/careers "C++" OR "software engineer" "trading" OR "connectivity" OR "FIX"'
+    enabled: true
+
+  - name: Broadridge — Careers
+    query: 'site:broadridge.com/careers "C++" OR "software engineer" "trading" OR "capital markets"'
+    enabled: true
+
+  # -- HN Who's Hiring -- Trading/C++ --
+  - name: HN Who's Hiring — C++ Trading
+    query: 'site:news.ycombinator.com "C++" "low latency" OR "HFT" OR "trading" OR "exchange connectivity" "Who is Hiring"'
+    enabled: true
+
+# -- Tracked companies --
+# Company career pages checked directly by the scanner.
+
+tracked_companies:
+
+  # ==============================================
+  # TIER 1: HFT Prop Trading Firms (Dream Roles)
+  # ==============================================
+
+  - name: Citadel Securities
+    careers_url: https://www.citadelsecurities.com/careers/
+    scan_method: websearch
+    scan_query: 'site:citadelsecurities.com/careers "C++" OR "software engineer" OR "low latency"'
+    notes: "Chicago/NYC/London/Singapore. World's largest market maker. Top HFT firm."
+    enabled: true
+
+  - name: Citadel LLC (Hedge Fund)
+    careers_url: https://www.citadel.com/careers/
+    scan_method: websearch
+    scan_query: 'site:citadel.com/careers "C++" OR "software engineer" OR "trading"'
+    notes: "Multi-strategy hedge fund. Quant developer roles."
+    enabled: true
+
+  - name: Jane Street
+    careers_url: https://www.janestreet.com/join-jane-street/open-positions/
+    scan_method: websearch
+    scan_query: 'site:janestreet.com "software engineer" OR "developer" OR "C++"'
+    notes: "NYC/London/Hong Kong/Amsterdam. Prop trading. Top comp. C++ + OCaml."
+    enabled: true
+
+  - name: Two Sigma
+    careers_url: https://careers.twosigma.com/careers/JobListings
+    scan_method: websearch
+    scan_query: 'site:careers.twosigma.com "C++" OR "software engineer" OR "infrastructure"'
+    notes: "NYC. Quant hedge fund. Strong C++ infra teams."
+    enabled: true
+
+  - name: Hudson River Trading (HRT)
+    careers_url: https://www.hudsonrivertrading.com/careers/
+    scan_method: websearch
+    scan_query: 'site:hudsonrivertrading.com/careers "software engineer" OR "C++" OR "developer"'
+    notes: "NYC/London/Singapore/Mumbai. Pure HFT. World-class engineering culture."
+    enabled: true
+
+  - name: Optiver
+    careers_url: https://optiver.com/working-at-optiver/career-opportunities/
+    scan_method: websearch
+    scan_query: 'site:optiver.com/working-at-optiver/career-opportunities "C++" OR "software engineer" OR "developer"'
+    notes: "Amsterdam/Chicago/Sydney/Shanghai/Mumbai. Market maker. Has India office."
+    enabled: true
+
+  - name: IMC Trading
+    careers_url: https://www.imc.com/eu/careers/
+    scan_method: websearch
+    scan_query: 'site:imc.com "C++" OR "software engineer" OR "developer" "trading" OR "low latency"'
+    notes: "Amsterdam/Chicago/Sydney/Mumbai. Global market maker. Has India office."
+    enabled: true
+
+  - name: Virtu Financial
+    careers_url: https://www.virtu.com/careers/
+    scan_method: websearch
+    scan_query: 'site:virtu.com/careers "C++" OR "software engineer" OR "developer"'
+    notes: "NYC/Dublin/Singapore. HFT market maker. Global presence."
+    enabled: true
+
+  - name: Flow Traders
+    careers_url: https://www.flowtraders.com/careers
+    scan_method: websearch
+    scan_query: 'site:flowtraders.com/careers "C++" OR "software engineer" OR "developer"'
+    notes: "Amsterdam/NYC/Singapore/Hong Kong. ETF market maker. Strong C++ culture."
+    enabled: true
+
+  - name: Tower Research Capital
+    careers_url: https://www.tower-research.com/careers
+    scan_method: websearch
+    scan_query: 'site:tower-research.com/careers "C++" OR "software engineer" OR "developer"'
+    notes: "NYC/London/Singapore. Pure HFT. Top-tier comp."
+    enabled: true
+
+  - name: Jump Trading
+    careers_url: https://www.jumptrading.com/careers/
+    scan_method: websearch
+    scan_query: 'site:jumptrading.com/careers "C++" OR "software engineer" OR "developer" OR "low latency"'
+    notes: "Chicago/NYC/London/Singapore/Mumbai/Bangalore. HFT/crypto/quant."
+    enabled: true
+
+  - name: SIG (Susquehanna International Group)
+    careers_url: https://sig.com/careers/
+    scan_method: websearch
+    scan_query: 'site:sig.com/careers "C++" OR "software engineer" OR "developer" OR "technology"'
+    notes: "Bala Cynwyd PA/London/Dublin. Prop trading. Strong quant dev culture."
+    enabled: true
+
+  - name: DRW
+    careers_url: https://drw.com/work-at-drw/
+    scan_method: websearch
+    scan_query: 'site:drw.com "C++" OR "software engineer" OR "developer" OR "infrastructure"'
+    notes: "Chicago/London/Singapore/Amsterdam. HFT + trading firm."
+    enabled: true
+
+  - name: XTX Markets
+    careers_url: https://www.xtxmarkets.com/#careers
+    scan_method: websearch
+    scan_query: 'site:xtxmarkets.com "C++" OR "software engineer" OR "developer"'
+    notes: "London. Top FX market maker. Highly technical."
+    enabled: true
+
+  - name: Akuna Capital
+    careers_url: https://akunacapital.com/careers
+    scan_method: websearch
+    scan_query: 'site:akunacapital.com/careers "C++" OR "software engineer" OR "developer"'
+    notes: "Chicago/Boston/Sydney/Shanghai/Amsterdam. HFT options market maker."
+    enabled: true
+
+  - name: Five Rings
+    careers_url: https://fiverings.com/apply/
+    scan_method: websearch
+    scan_query: 'site:fiverings.com "C++" OR "software engineer" OR "developer"'
+    notes: "NYC. Small elite prop trading/HFT firm."
+    enabled: true
+
+  - name: Millenium Management
+    careers_url: https://www.mlp.com/careers/
+    scan_method: websearch
+    scan_query: 'site:mlp.com/careers "C++" OR "software engineer" OR "developer" OR "quant"'
+    notes: "NYC/London. Multi-strategy hedge fund. Large quant/tech org."
+    enabled: true
+
+  - name: DE Shaw
+    careers_url: https://www.deshaw.com/careers
+    scan_method: websearch
+    scan_query: 'site:deshaw.com/careers "C++" OR "software engineer" OR "developer" OR "infrastructure"'
+    notes: "NYC. Quant hedge fund. Strong C++ infra. Has Hyderabad office."
+    enabled: true
+
+  - name: WorldQuant
+    careers_url: https://www.worldquant.com/career-listing/
+    scan_method: websearch
+    scan_query: 'site:worldquant.com "C++" OR "software engineer" OR "developer" OR "quant researcher"'
+    notes: "NYC/London/Singapore/Mumbai. Quant asset manager."
+    enabled: true
+
+  - name: Squarepoint Capital
+    careers_url: https://www.squarepointcap.com/about/careers
+    scan_method: websearch
+    scan_query: 'site:squarepointcap.com "C++" OR "software engineer" OR "developer"'
+    notes: "London/NYC/Singapore/Geneva. Systematic hedge fund."
+    enabled: true
+
+  - name: Tibra Capital
+    careers_url: https://tibragroup.com/careers/
+    scan_method: websearch
+    scan_query: 'site:tibragroup.com "C++" OR "software engineer" OR "developer"'
+    notes: "Sydney/Chicago/Amsterdam/Singapore. HFT market maker."
+    enabled: true
+
+  - name: Maven Securities
+    careers_url: https://mavensecurities.com/careers/
+    scan_method: websearch
+    scan_query: 'site:mavensecurities.com "C++" OR "software engineer" OR "developer"'
+    notes: "Amsterdam/London/Chicago. Prop trading market maker."
+    enabled: true
+
+  - name: Qube Research & Technologies (QRT)
+    careers_url: https://www.qube-rt.com/careers
+    scan_method: websearch
+    scan_query: 'site:qube-rt.com/careers "C++" OR "software engineer" OR "developer"'
+    notes: "London/Paris/Hong Kong/Singapore. Quant trading firm."
+    enabled: true
+
+  # ==============================================
+  # TIER 2: Investment Banks — Electronic Trading
+  # ==============================================
+
+  - name: Goldman Sachs Technology
+    careers_url: https://www.goldmansachs.com/careers/
+    scan_method: websearch
+    scan_query: 'site:goldmansachs.com/careers "C++" OR "electronic trading" OR "market connectivity" OR "FIX" "engineer"'
+    notes: "NYC/London/Bangalore. Large electronic trading / strats / engineering org."
+    enabled: true
+
+  - name: Morgan Stanley Technology
+    careers_url: https://www.morganstanley.com/careers
+    scan_method: websearch
+    scan_query: 'site:morganstanley.com/careers "C++" OR "electronic trading" OR "low latency" OR "FIX" "engineer"'
+    notes: "NYC/London/Mumbai/Bangalore. Large electronic trading tech org."
+    enabled: true
+
+  - name: JP Morgan Technology
+    careers_url: https://jobs.jpmorganchase.com
+    scan_method: websearch
+    scan_query: 'site:jobs.jpmorganchase.com "C++" OR "electronic trading" OR "low latency" OR "market connectivity" "engineer"'
+    notes: "NYC/London/Mumbai/Bangalore. Large markets technology group."
+    enabled: true
+
+  - name: Barclays Technology
+    careers_url: https://search.jobs.barclays
+    scan_method: websearch
+    scan_query: 'site:search.jobs.barclays "C++" OR "electronic trading" OR "low latency" OR "FIX" "engineer"'
+    notes: "London/NYC/Mumbai/Pune. Markets technology."
+    enabled: true
+
+  - name: Deutsche Bank Technology
+    careers_url: https://careers.db.com
+    scan_method: websearch
+    scan_query: 'site:careers.db.com "C++" OR "electronic trading" OR "market connectivity" OR "FIX" "engineer"'
+    notes: "Frankfurt/London/Bangalore/Mumbai. Markets tech."
+    enabled: true
+
+  - name: UBS Technology
+    careers_url: https://www.ubs.com/global/en/careers.html
+    scan_method: websearch
+    scan_query: '"ubs" site:linkedin.com/jobs OR site:efinancialcareers.com "C++" OR "electronic trading" OR "low latency" OR "FIX" India OR Pune OR Mumbai'
+    notes: "Zurich/London/NYC/Mumbai. Post-CS merger large tech org."
+    enabled: true
+
+  - name: BNP Paribas Technology
+    careers_url: https://careers.bnpparibas.com/en/
+    scan_method: websearch
+    scan_query: 'site:careers.bnpparibas.com "C++" OR "electronic trading" OR "market connectivity" OR "FIX" "engineer"'
+    notes: "Paris/London/Mumbai. Global Markets technology."
+    enabled: true
+
+  - name: Société Générale
+    careers_url: https://careers.societegenerale.com
+    scan_method: websearch
+    scan_query: 'site:careers.societegenerale.com "C++" OR "electronic trading" OR "low latency" OR "market connectivity"'
+    notes: "Paris/London/Bangalore. Global Markets tech."
+    enabled: true
+
+  - name: Credit Agricole CIB
+    careers_url: https://careers.credit-agricole-cib.com
+    scan_method: websearch
+    scan_query: 'site:careers.credit-agricole-cib.com "C++" OR "electronic trading" OR "FIX" "engineer"'
+    notes: "Paris/London/Hong Kong. CIB markets technology."
+    enabled: true
+
+  - name: Nomura
+    careers_url: https://careers.nomura.com
+    scan_method: websearch
+    scan_query: 'site:careers.nomura.com "C++" OR "electronic trading" OR "low latency" OR "FIX" India OR Powai OR Mumbai'
+    notes: "Tokyo/London/NYC/Mumbai. Electronic trading tech."
+    enabled: true
+
+  - name: HSBC Technology
+    careers_url: https://www.hsbc.com/careers
+    scan_method: websearch
+    scan_query: '"HSBC" site:linkedin.com/jobs "C++" OR "electronic trading" OR "market connectivity" India OR Pune OR Mumbai'
+    notes: "London/Hong Kong/Pune. Markets technology."
+    enabled: true
+
+  - name: Standard Chartered
+    careers_url: https://scb.taleo.net/careersection/ex/jobsearch.ftl
+    scan_method: websearch
+    scan_query: '"Standard Chartered" site:linkedin.com/jobs "C++" OR "electronic trading" OR "market connectivity" India OR Bangalore OR Chennai'
+    notes: "London/Singapore/Bangalore. Markets tech."
+    enabled: true
+
+  - name: Macquarie Technology
+    careers_url: https://www.macquarie.com/au/en/careers.html
+    scan_method: websearch
+    scan_query: '"Macquarie" site:linkedin.com/jobs "C++" OR "trading" OR "market connectivity" India OR Pune OR Mumbai'
+    notes: "Sydney/London/NYC/Mumbai. Markets and infra tech."
+    enabled: true
+
+  # ==============================================
+  # TIER 3: Capital Markets Fintech Vendors
+  # ==============================================
+
+  - name: ION Group
+    careers_url: https://iongroup.com/careers/
+    scan_method: websearch
+    scan_query: 'site:iongroup.com/careers "C++" OR "software engineer" OR "developer" "trading" OR "FIX" OR "connectivity"'
+    notes: "Dublin/London/NYC. Major trading tech vendor (Fidessa parent). FIX-heavy."
+    enabled: true
+
+  - name: FIS Global (Trading / Capital Markets)
+    careers_url: https://jobs.fisglobal.com
+    scan_method: websearch
+    scan_query: 'site:jobs.fisglobal.com "C++" OR "software engineer" "trading" OR "FIX" OR "exchange connectivity" OR "capital markets"'
+    notes: "Jacksonville/Pune. Large trading/capital markets tech vendor."
+    enabled: true
+
+  - name: Broadridge Financial Solutions
+    careers_url: https://careers.broadridge.com
+    scan_method: websearch
+    scan_query: 'site:careers.broadridge.com "C++" OR "software engineer" "trading" OR "capital markets" OR "OMS" OR "FIX"'
+    notes: "NYC/London/Mumbai. Capital markets infrastructure."
+    enabled: true
+
+  - name: Refinitiv / LSEG Technology
+    careers_url: https://lseg.com/en/careers
+    scan_method: websearch
+    scan_query: 'site:lseg.com/en/careers "C++" OR "software engineer" "trading" OR "market data" OR "FIX" OR "connectivity"'
+    notes: "London. LSEG acquired Refinitiv/Reuters. Market data + trading infra."
+    enabled: true
+
+  - name: Bloomberg LP Technology
+    careers_url: https://careers.bloomberg.com/job/search
+    scan_method: websearch
+    scan_query: 'site:careers.bloomberg.com "C++" OR "software engineer" "trading" OR "market data" OR "connectivity"'
+    notes: "NYC/London. Terminal + trading analytics. Strong C++ culture."
+    enabled: true
+
+  - name: Cboe Global Markets
+    careers_url: https://careers.cboe.com
+    scan_method: websearch
+    scan_query: 'site:careers.cboe.com "C++" OR "software engineer" "trading" OR "exchange" OR "market data"'
+    notes: "Chicago/London. Exchange operator. Gateway and market data tech."
+    enabled: true
+
+  - name: Nasdaq Market Technology
+    careers_url: https://careers.nasdaq.com
+    scan_method: websearch
+    scan_query: 'site:careers.nasdaq.com "C++" OR "software engineer" "trading" OR "exchange" OR "market data" OR "ITCH" OR "OUCH"'
+    notes: "NYC/Stockholm. Exchange technology. ITCH/OUCH protocol."
+    enabled: true
+
+  - name: Murex
+    careers_url: https://www.murex.com/careers/
+    scan_method: websearch
+    scan_query: 'site:murex.com/careers "C++" OR "software engineer" "trading" OR "capital markets" OR "FIX"'
+    notes: "Paris/Singapore/Dublin/Beirut/Mumbai. Capital markets platform (MX.3)."
+    enabled: true
+
+  - name: Calypso Technology (Adenza/Nasdaq)
+    careers_url: https://careers.nasdaq.com
+    scan_method: websearch
+    scan_query: '"Calypso" OR "Adenza" site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "capital markets"'
+    notes: "NYC/London/Paris. Part of Nasdaq (Adenza). Capital markets platform."
+    enabled: true
+
+  - name: Fidessa (ION Group)
+    careers_url: https://iongroup.com/careers/
+    scan_method: websearch
+    scan_query: '"Fidessa" site:linkedin.com/jobs OR site:iongroup.com/careers "C++" OR "software engineer" "trading" OR "OMS" OR "EMS" OR "FIX"'
+    notes: "London. OMS/EMS vendor, now part of ION Group."
+    enabled: true
+
+  - name: FactSet
+    careers_url: https://jobs.factset.com
+    scan_method: websearch
+    scan_query: 'site:jobs.factset.com "C++" OR "software engineer" "trading" OR "market data" OR "analytics"'
+    notes: "Norwalk CT/London/Mumbai. Financial data and analytics platform."
+    enabled: true
+
+  - name: SimCorp
+    careers_url: https://www.simcorp.com/en/about/careers
+    scan_method: websearch
+    scan_query: 'site:simcorp.com/en/about/careers "C++" OR "software engineer" "trading" OR "investment management" OR "OMS"'
+    notes: "Copenhagen/Frankfurt/London. Investment management software."
+    enabled: true
+
+  - name: SS&C Technologies
+    careers_url: https://careers.ssctech.com
+    scan_method: websearch
+    scan_query: 'site:careers.ssctech.com "C++" OR "software engineer" "trading" OR "capital markets" OR "fund administration"'
+    notes: "Windsor CT/global. Fund admin + trading tech."
+    enabled: true
+
+  - name: Traiana (CME Group)
+    careers_url: https://careers.cmegroup.com
+    scan_method: websearch
+    scan_query: 'site:careers.cmegroup.com "C++" OR "software engineer" "trading" OR "exchange" OR "FIX" OR "clearing"'
+    notes: "Chicago/London. CME Group — exchange operator and clearing."
+    enabled: true
+
+  - name: SunGard / FIS Trading
+    careers_url: https://jobs.fisglobal.com
+    scan_method: websearch
+    scan_query: '"SunGard" OR "FIS Trading" site:linkedin.com/jobs OR site:jobs.fisglobal.com "C++" "trading" OR "capital markets"'
+    notes: "Part of FIS. Trading and risk platform."
+    enabled: true
+
+  # ==============================================
+  # TIER 4: India-Specific Trading Tech
+  # ==============================================
+
+  - name: NSE Technologies
+    careers_url: https://www.nseindia.com/about-us/career
+    scan_method: websearch
+    scan_query: '"NSE Technologies" OR "nseit.com" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "exchange"'
+    notes: "Mumbai. Technology arm of NSE India."
+    enabled: true
+
+  - name: BSE Technologies
+    careers_url: https://www.bseindia.com/
+    scan_method: websearch
+    scan_query: '"BSE Technologies" OR "BSE Institute" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "exchange"'
+    notes: "Mumbai. Technology arm of BSE India."
+    enabled: true
+
+  - name: 63 Moons Technologies
+    careers_url: https://63moons.com/career
+    scan_method: websearch
+    scan_query: 'site:63moons.com/career OR "63 Moons" site:naukri.com "C++" OR "software engineer" OR "ODIN" "trading"'
+    notes: "Mumbai. ODIN trading platform. Was previous employer."
+    enabled: true
+
+  - name: Zerodha Technology
+    careers_url: https://zerodha.com/careers/
+    scan_method: websearch
+    scan_query: 'site:zerodha.com/careers "C++" OR "software engineer" OR "developer" "trading" OR "infrastructure"'
+    notes: "Bangalore. India's largest discount broker. Strong tech culture."
+    enabled: true
+
+  - name: Edelweiss Financial Services
+    careers_url: https://www.edelweissfin.com/career
+    scan_method: websearch
+    scan_query: '"Edelweiss" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "connectivity" OR "algo"'
+    notes: "Mumbai. Diversified financial services. Algo trading tech."
+    enabled: true
+
+  - name: Motilal Oswal Technology
+    careers_url: https://www.motilaloswal.com/careers
+    scan_method: websearch
+    scan_query: '"Motilal Oswal" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "OMS" OR "algo"'
+    notes: "Mumbai. Brokerage + wealth tech. Algorithmic trading platform."
+    enabled: true
+
+  - name: ICICI Securities Technology
+    careers_url: https://www.icicisecurities.com/InformationCenter.aspx?headType=Careers
+    scan_method: websearch
+    scan_query: '"ICICI Securities" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "algo" OR "connectivity"'
+    notes: "Mumbai. Large retail brokerage. Algo and connectivity tech."
+    enabled: true
+
+  - name: Sharekhan Technology
+    careers_url: https://www.sharekhan.com/about-us/careers
+    scan_method: websearch
+    scan_query: '"Sharekhan" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "connectivity" OR "algo"'
+    notes: "Mumbai. BNP Paribas subsidiary. Retail brokerage tech."
+    enabled: true
+
+  - name: Angel One Technology
+    careers_url: https://angelone.in/about-us/careers
+    scan_method: websearch
+    scan_query: '"Angel One" OR "Angel Broking" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "infrastructure"'
+    notes: "Bangalore. Fast-growing discount broker. Trading platform tech."
+    enabled: true
+
+  - name: HDFC Securities Technology
+    careers_url: https://www.hdfcsec.com/aboutus/careers
+    scan_method: websearch
+    scan_query: '"HDFC Securities" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "connectivity"'
+    notes: "Mumbai. HDFC group brokerage."
+    enabled: true
+
+  - name: Kotak Securities Technology
+    careers_url: https://www.kotaksecurities.com/aboutus/careers.html
+    scan_method: websearch
+    scan_query: '"Kotak Securities" site:naukri.com OR site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "connectivity"'
+    notes: "Mumbai. Kotak group brokerage."
+    enabled: true
+
+  # ==============================================
+  # TIER 5: Singapore / APAC HFT
+  # ==============================================
+
+  - name: Grasshopper Asset Management
+    careers_url: https://www.grasshopperasset.com/careers
+    scan_method: websearch
+    scan_query: '"Grasshopper" Singapore site:linkedin.com/jobs "C++" OR "software engineer" "trading" OR "low latency"'
+    notes: "Singapore. Proprietary trading firm."
+    enabled: true
+
+  - name: Quantedge
+    careers_url: https://www.quantedge.com/careers
+    scan_method: websearch
+    scan_query: 'site:quantedge.com/careers OR "Quantedge" site:linkedin.com/jobs "C++" OR "software engineer" OR "quant developer"'
+    notes: "Singapore. Systematic hedge fund. C++ and quant developer roles."
+    enabled: true
+
+  - name: Dymon Asia
+    careers_url: https://www.dymon.com/careers/
+    scan_method: websearch
+    scan_query: '"Dymon Asia" site:linkedin.com/jobs "C++" OR "software engineer" OR "quant developer" "trading"'
+    notes: "Singapore. Macro + quant hedge fund."
+    enabled: true
+
+  - name: Andurand Capital
+    careers_url: https://www.andurand.com/careers
+    scan_method: websearch
+    scan_query: '"Andurand" site:linkedin.com/jobs "C++" OR "software engineer" "trading"'
+    notes: "London/Singapore. Commodities hedge fund."
+    enabled: true
+
+  # ==============================================
+  # TIER 6: Consulting / IT Services (India)
+  # ==============================================
+
+  - name: TCS Capital Markets
+    careers_url: https://careers.tcs.com
+    scan_method: websearch
+    scan_query: 'site:careers.tcs.com "C++" OR "software engineer" "trading" OR "capital markets" OR "FIX" OR "exchange connectivity"'
+    notes: "Pan-India. TCS Financial Solutions / BaNCS. Capital markets projects."
+    enabled: true
+
+  - name: Infosys Financial Services
+    careers_url: https://career.infosys.com
+    scan_method: websearch
+    scan_query: 'site:career.infosys.com "C++" OR "software engineer" "trading" OR "capital markets" OR "FIX" OR "Finacle"'
+    notes: "Bangalore/Pune. Infosys BPM + Finacle capital markets."
+    enabled: true
+
+  - name: Wipro Capital Markets
+    careers_url: https://careers.wipro.com
+    scan_method: websearch
+    scan_query: 'site:careers.wipro.com "C++" OR "software engineer" "trading" OR "capital markets" OR "FIX"'
+    notes: "Pune/Bangalore. Capital markets service line."
+    enabled: true
+
+  - name: Mphasis Financial Services
+    careers_url: https://careers.mphasis.com
+    scan_method: websearch
+    scan_query: 'site:careers.mphasis.com "C++" OR "software engineer" "trading" OR "capital markets" OR "financial services"'
+    notes: "Bangalore. BFSI-focused IT services."
+    enabled: true
+
+  - name: Capgemini Financial Services
+    careers_url: https://www.capgemini.com/careers/
+    scan_method: websearch
+    scan_query: '"Capgemini" site:naukri.com OR site:linkedin.com/jobs "C++" "trading" OR "capital markets" OR "FIX" India'
+    notes: "Mumbai/Pune. Financial services practice."
+    enabled: true
+
+  - name: Accenture Capital Markets
+    careers_url: https://www.accenture.com/in-en/careers
+    scan_method: websearch
+    scan_query: 'site:accenture.com/in-en/careers "C++" "trading" OR "capital markets" OR "FIX" OR "exchange connectivity"'
+    notes: "Mumbai/Pune/Bangalore. Large capital markets practice."
+    enabled: true
