@@ -24,6 +24,8 @@ jds/*
 
 # Generated
 .resolved-prompt-*
+data/scan-cron.log
+JobPortal/
 node_modules/
 bun.lock
 

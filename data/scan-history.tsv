@@ -1,1 +1,158 @@
-url	title	company	date_seen
+url	title	company	date_seen	portal	status
+https://www.naukri.com/job-listings-fx-trading-systems-developer-vichara-technologies-hyderabad-delhi-ncr-mumbai-all-areas-9-to-14-years-191225009530	FX & Trading Systems Developer	Vichara Technologies	2026-04-18	naukri.com	added
+https://iongroup.com/jobs/market-access-c-server-developer-4822-f626af64-e945-4a04-a2e3-f50dbc2cfd6f/	Market Access C++ Server Developer (4822)	ION Group	2026-04-18	iongroup.com	added
+https://iongroup.com/jobs/market-access-c-server-developer-4820-571f2577-f98b-42c5-a10a-ed7d1f4c4561/	Market Access C++ Server Developer (4820)	ION Group	2026-04-18	iongroup.com	added
+https://iongroup.com/jobs/fidessa-c-developer-6063-4d29ab04-9b15-4d14-b73f-46396754c566/	Fidessa C++ Developer (6063)	ION Group (Fidessa)	2026-04-18	iongroup.com	added
+https://iongroup.com/jobs/c-developer-6426-fa79e07e-cc36-4238-9e02-46afa96b9f36/	C++ Developer (6426)	ION Group	2026-04-18	iongroup.com	added
+https://iongroup.com/jobs/c-developer-6440-4c0cb43d-770a-496e-b6e9-9deb24dede66/	C++ Developer (6440)	ION Group	2026-04-18	iongroup.com	added
+https://iongroup.com/jobs/c-developer-6881-bc002c60-4d14-4ca8-b01a-bc7943ee7663/	C++ Developer (6881)	ION Group	2026-04-18	iongroup.com	added
+https://iongroup.com/jobs/c-software-engineer-server-side-5022-ac1b3104-5d3b-4b6e-95f1-4c6d93a44d4d/	C++ Software Engineer Server-Side (5022)	ION Group	2026-04-18	iongroup.com	added
+https://careers.bloomberg.com/job/detail/109013	Software Engineer in Test – Trading Connectivity	Bloomberg	2026-04-18	bloomberg.com	added
+https://www.iimjobs.com/j/quant-developer-high-frequency-trading-1616218	Quant Developer – High Frequency Trading	HFT Firm	2026-04-18	iimjobs.com	added
+https://www.iimjobs.com/j/quant-developer-trading-system-iit-iisc-isi-nit-1644880	Quant Developer – Trading System	Trading Firm	2026-04-18	iimjobs.com	added
+https://www.iimjobs.com/j/low-latency-trader-high-frequency-trading-1687762	Low Latency Trader – High Frequency Trading	Prop Trading Firm	2026-04-18	iimjobs.com	added
+https://job-boards.greenhouse.io/eclipsetrading/jobs/7339999002	Low Latency C++ Engineer	Eclipse Trading	2026-04-18	greenhouse.io	added
+https://www.efinancialcareers.com/jobs-Hong_Kong-Hong_Kong-C_Developer_Market_Execution.id23604633	C++ Developer (Market Execution)	Global Quant Hedge Fund	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-Hong_Kong-Hong_Kong-C_Developer_HFT_Strategy.id23604631	C++ Developer (HFT Strategy)	HFT Firm	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-Hong_Kong-Hong_Kong-Algorithmic_Trading_Low_Latency_Developer.id23436418	Algorithmic Trading Low Latency Developer	UBS	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-Hong_Kong-Hong_Kong-Senior_C_Engineer.id22822117	Senior C++ Engineer	Prop Trading Firm	2026-04-18	efinancialcareers.com	added
+https://au.linkedin.com/jobs/view/connectivity-team-lead-c++-low-latency-linux-fix-market-data-at-salt-singapore-207830646	Connectivity Team Lead – C++ Low Latency Linux FIX Market Data	HFT Firm (via Xpand Group)	2026-04-18	linkedin.com	added
+https://www.efinancialcareers.com/jobs-UK-London-C_HFT_developer_APAC_relocation.id22884438	C++ HFT Developer (APAC Relocation)	HFT Firm	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-UK-London-Senior_C_Developer.id23991347	Senior C++ Developer	Broadridge	2026-04-18	efinancialcareers.com	added
+https://uk.linkedin.com/jobs/view/c++-low-latency-developer-leading-hft-firm-london-at-selby-jennings-4334126900	C++ Low-Latency Developer – Leading HFT Firm	Leading HFT Firm	2026-04-18	linkedin.com	added
+https://www.efinancialcareers.com/jobs-UK-London-Senior_Trading_Developer_-_Hedge_Fund.id08933171	Senior Trading Developer (FIX Connectivity)	Hedge Fund	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-Netherlands-Amsterdam-C_Developer_%E2%80%93_High-Frequency_Trading__Low-Latency_Systems.id22652330	C++ Developer – HFT & Low-Latency Systems	Fourier Ltd	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-Netherlands-Amsterdam-C_Engineer_-_Low_Latency_Trading_-_Buy_Side.id21497176	C++ Engineer – Low Latency Trading (Buy Side)	Fourier Ltd	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-Netherlands-Amsterdam-C_Developer_-_Amsterdam-_Tech-Driven_Prop_Trading_Firm.id22762753	C++ Developer – Tech-Driven Prop Trading Firm	Prop Trading Firm	2026-04-18	efinancialcareers.com	added
+https://optiver.com/working-at-optiver/career-opportunities/8373619002/	Low Latency Execution Systems Engineer (C++)	Optiver	2026-04-18	optiver.com	added
+https://optiver.com/working-at-optiver/career-opportunities/8373449002/	Algorithmic Trading C++ Engineer – Equities	Optiver	2026-04-18	optiver.com	added
+https://optiver.com/working-at-optiver/career-opportunities/7866471002/	Senior C++ Developer	Optiver	2026-04-18	optiver.com	added
+https://www.janestreet.com/join-jane-street/position/6254435002/	Low-Latency Engineer	Jane Street	2026-04-18	janestreet.com	added
+https://www.hudsonrivertrading.com/hrt-job/low-level-software-engineer-c-2/	Experienced Low Level Software Engineer (C++)	Hudson River Trading	2026-04-18	hudsonrivertrading.com	added
+https://boards.greenhouse.io/galaxydigitalservices/jobs/4039695004	Trading Systems Developer (C++)	Galaxy Digital	2026-04-18	greenhouse.io	added
+https://boards.greenhouse.io/wehrtyou/jobs/5175984	Exchange Connectivity Analyst	Hudson River Trading	2026-04-18	greenhouse.io	added
+https://www.efinancialcareers.com/jobs-USA-IL-Chicago-C_Engineer_-_HFT_-_URGENT_HIRE.id22708766	C++ Engineer – HFT (Execution & Exchange Connectivity)	Top Trading Firm	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-USA-NY-New_York-C_Developer_for_High-Frequency_Trading.id20292117	C++ Developer for High-Frequency Trading	Prop Trading Firm	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-USA-NY-New_York-C_Engineer_%E2%80%93_Build_Cutting-Edge_Systems_at_a_Leading_Prop_Trading_Firm.id22652332	C++ Engineer – Cutting-Edge Trading Systems	Leading Prop Trading Firm	2026-04-18	efinancialcareers.com	added
+https://www.efinancialcareers.com/jobs-USA-NY-Manhattan-Senior_C_Software_Developer.id23805907	Senior C++ Software Developer	Leading Prop Trading Firm	2026-04-18	efinancialcareers.com	added
+https://www.jumptrading.com/careers/7008756/?gh_jid=7008756	Software Engineer	Jump Trading	2026-04-18	jumptrading.com	added
+https://www.naukri.com/c-plus-plus-developer-jobs-in-mumbai	C++ Developer jobs in Mumbai (category page)	Various	2026-04-18	naukri.com	skipped_title
+https://www.naukri.com/c-plus-plus-developer-jobs-in-bangalore	C++ Developer jobs in Bangalore (category page)	Various	2026-04-18	naukri.com	skipped_title
+https://www.naukri.com/order-management-system-jobs	Order Management System Jobs (category page)	Various	2026-04-18	naukri.com	skipped_title
+https://www.iimjobs.com/j/low-latency-trader-1639233	Low Latency Trader	Prop Trading Firm	2026-04-18	iimjobs.com	skipped_title
+https://www.iimjobs.com/j/quant-trader-crypto-trading-firm-1678492	Quant Trader – Crypto Trading Firm	Trading Firm	2026-04-18	iimjobs.com	skipped_title
+https://www.iimjobs.com/j/quantitative-trader-trading-firm-1685703	Quantitative Trader – Trading Firm	Trading Firm	2026-04-18	iimjobs.com	skipped_title
+https://www.efinancialcareers.com/jobs-Netherlands-Amsterdam-C_Software_Engineer_-_Amsterdam-_Sophisticated_Prop_Trading_Firm.id19333399	C++ Software Engineer – Sophisticated Prop Trading Firm	Prop Trading Firm	2026-04-18	efinancialcareers.com	skipped_dup
+https://www.efinancialcareers.com/jobs-UK-London-Junior_C_Engineer_in_HFT.id22039698	Junior C++ Engineer in HFT	HFT Firm	2026-04-18	efinancialcareers.com	skipped_title
+https://www.efinancialcareers.com/jobs-UK-London-Senior_C_Software_Developer_-_ultra-low-latency_HFT-_Electronic_Market_Making.id19333443	Senior C++ Software Developer – Ultra-Low-Latency HFT – Electronic Market Making	HFT Firm	2026-04-18	efinancialcareers.com	skipped_dup
+https://www.efinancialcareers.com/jobs-UK-London-C_Developer_-_Systematic_Trading_-_Ultra_Low_Latency_-Hedge_Fund.id19263748	C++ Developer – Systematic Trading – Ultra Low Latency – Hedge Fund	Hedge Fund	2026-04-18	efinancialcareers.com	skipped_dup
+https://www.janestreet.com/join-jane-street/position/4274288002/	Software Engineer	Jane Street	2026-04-18	janestreet.com	skipped_dup
+https://www.janestreet.com/join-jane-street/position/4274809002/	FPGA Engineer	Jane Street	2026-04-18	janestreet.com	skipped_title
+https://www.janestreet.com/join-jane-street/position/4279246002/	FPGA Engineer New York	Jane Street	2026-04-18	janestreet.com	skipped_title
+https://www.hudsonrivertrading.com/careers/job/?gh_jid=6139130&req_id=485	Software Engineer (C++) – 2025 Grads	Hudson River Trading	2026-04-18	hudsonrivertrading.com	skipped_title
+https://www.hudsonrivertrading.com/careers/job/?gh_jid=4853468&req_id=108	Electronic Trading Support Engineer	Hudson River Trading	2026-04-18	hudsonrivertrading.com	skipped_title
+https://job-boards.greenhouse.io/eqvilentjobs/jobs/4057476101	Quantitative Researcher	Eqvilent	2026-04-18	greenhouse.io	skipped_title
+https://boards.greenhouse.io/elwoodtechnologies/jobs/4149103004	Senior Engineer: Trading	Elwood Technologies	2026-04-18	greenhouse.io	skipped_title
+https://boards.greenhouse.io/elwoodtechnologies/jobs/4092419004	Software Engineer – Trading	Elwood Technologies	2026-04-18	greenhouse.io	skipped_title
+https://boards.greenhouse.io/embed/job_app?token=6446413	Software Developer – Order Gateway Integration	Squarepoint Capital	2026-04-18	greenhouse.io	skipped_title
+https://www.efinancialcareers.com/jobs-Taiwan-Taipei-Senior_C_Engineer.id23423458	Senior C++ Engineer	Prop Trading Firm	2026-04-18	efinancialcareers.com	skipped_title
+https://www.efinancialcareers.com/jobs-USA-NY-Manhattan-Software_EngineerQuantitative_Developer.id22200234	Software Engineer / Quantitative Developer	FinTech Firm	2026-04-18	efinancialcareers.com	skipped_title
+https://www.jumptrading.com/careers/7124769/?gh_jid=7124769	Campus Software Engineer (Intern)	Jump Trading	2026-04-18	jumptrading.com	skipped_title
+https://careers.bloomberg.com/job/detail/112903	Senior Software Engineer – Multi Asset Risk System (C++)	Bloomberg	2026-04-18	bloomberg.com	skipped_title
+https://careers.bloomberg.com/job/detail/95489	Senior Software Engineer – Enterprise Trading Platform	Bloomberg	2026-04-18	bloomberg.com	skipped_title
+https://optiver.com/working-at-optiver/career-opportunities/7789686002/	Senior Software Engineer – Automated Trading Systems	Optiver	2026-04-18	optiver.com	skipped_dup
+https://optiver.com/working-at-optiver/career-opportunities/7796597002/	Software Engineer – Equities/ETFs	Optiver	2026-04-18	optiver.com	skipped_title
+https://optiver.com/working-at-optiver/career-opportunities/7790593002/	Network Engineer – Low Latency	Optiver	2026-04-18	optiver.com	skipped_title
+https://tradingtechnologies.pinpointhq.com/en/postings/7c3d32d5-4af0-4534-ad14-5bbc85589fa6	Senior Software Engineer, Market Connectivity	Trading Technologies	2026-08-08	tradingtechnologies.pinpointhq.com	added
+https://tradingtechnologies.pinpointhq.com/en/postings/8b78e9c9-918a-4502-826b-1406b508ff54	Senior Software Engineer, Trading Systems (OMS Pod)	Trading Technologies	2026-08-08	tradingtechnologies.pinpointhq.com	added
+https://job-boards.eu.greenhouse.io/imc/jobs/4282973101	C++ Software Engineer	IMC Trading	2026-08-08	job-boards.eu.greenhouse.io	added
+https://www.tower-research.com/open-positions/?gh_jid=4357723	Low Latency Developer	Tower Research Capital	2026-08-08	tower-research.com	added
+https://www.tower-research.com/open-positions/?gh_jid=7102180	Quantitative Developer	Tower Research Capital	2026-08-08	tower-research.com	added
+https://boards.greenhouse.io/gravitonresearchcapital/jobs/4004920002	Software Engineer (C++)	Graviton Research Capital	2026-08-08	boards.greenhouse.io	added
+https://job-boards.eu.greenhouse.io/nksecuritiesresearch/jobs/4470705101	Senior Software Developer	NK Securities Research	2026-08-08	job-boards.eu.greenhouse.io	added
+https://in.talent.com/view?id=0f1f421110d8	Lead Associate C++	Talent HR Networks (client: trading firm)	2026-08-08	in.talent.com	added
+https://job-boards.greenhouse.io/flowtraders/jobs/6993714	Senior Software Engineer, C++	Flow Traders	2026-08-08	job-boards.greenhouse.io	added
+https://www.hudsonrivertrading.com/careers/job/?gh_jid=6345536	Software Engineer - Low Level (C++)	Hudson River Trading	2026-08-08	hudsonrivertrading.com	added
+https://job-boards.greenhouse.io/dvtrading/jobs/4693324005	C++ Software Developer (DV Equities)	DV Trading	2026-08-08	job-boards.greenhouse.io	added
+https://www.janestreet.com/join-jane-street/apply/8161177002?gh_jid=8161177002	FIX Onboarding and Connectivity Engineer	Jane Street	2026-08-08	janestreet.com	added
+https://www.tower-research.com/open-positions/?gh_jid=6296510	Quantitative Developer (C++)	Tower Research Capital	2026-08-08	tower-research.com	added
+https://www.efinancialcareers.com/jobs-Hong_Kong-Hong_Kong-Quantitative_Developer_-_C_Low_Latency__Algo_Trading.id24162842	Quantitative Developer - C++ (Low Latency & Algo Trading)	Undisclosed (via eFC)	2026-08-08	efinancialcareers.com	added
+https://www.janestreet.com/join-jane-street/apply/8159216002?gh_jid=8159216002	FIX Onboarding and Connectivity Engineer	Jane Street	2026-08-08	janestreet.com	added
+https://www.hudsonrivertrading.com/careers/job/?gh_jid=1229082	Software Engineer - Low Level (C++)	Hudson River Trading	2026-08-08	hudsonrivertrading.com	added
+https://www.optiver.com/join-us/jobs/8546763002/?gh_jid=8546763002	C++ Software Engineer	Optiver	2026-08-08	optiver.com	added
+https://www.tower-research.com/open-positions/?gh_jid=7995006	Core Engineering Manager, C++	Tower Research Capital	2026-08-08	tower-research.com	added
+https://www.tower-research.com/open-positions/?gh_jid=6346539	Software Engineer, C++	Tower Research Capital	2026-08-08	tower-research.com	added
+https://job-boards.greenhouse.io/dvtrading/jobs/4650104005	C++ Software Developer - Front Office	DV Trading	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/drweng/jobs/7182464	Options Trading Systems Engineer	DRW	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/drweng/jobs/7976003	Senior Software Engineer, Trading Platform, C++	DRW	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/flowtraders/jobs/8027844	Senior Software Engineer, C++	Flow Traders	2026-08-08	job-boards.greenhouse.io	added
+https://www.tower-research.com/open-positions/?gh_jid=7979738	Software Engineer, C++	Tower Research Capital	2026-08-08	tower-research.com	added
+https://www.tower-research.com/open-positions/?gh_jid=7080209	Quantitative Developer, C++ - Trading Teams EMEA	Tower Research Capital	2026-08-08	tower-research.com	added
+https://www.oldmissioncapital.com/careers/?gh_jid=6515984003	C++ Software Engineer	Old Mission Capital	2026-08-08	oldmissioncapital.com	added
+https://job-boards.greenhouse.io/dvtrading/jobs/4695141005	C++ Software Developer (DV Equities)	DV Trading	2026-08-08	job-boards.greenhouse.io	added
+https://jobs.ashbyhq.com/reactivemarkets/5d27b44b-7a55-4c38-b23d-278c2cd527c7	Senior C++ Software Engineer	Reactive Markets	2026-08-08	jobs.ashbyhq.com	added
+https://job-boards.eu.greenhouse.io/imc/jobs/4634204101	C++ Software Engineer	IMC Trading	2026-08-08	job-boards.eu.greenhouse.io	added
+https://job-boards.greenhouse.io/flowtraders/jobs/7992594	Senior Software Engineer, C++	Flow Traders	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/drweng/jobs/7975947	Senior Software Engineer, Trading Platform, C++	DRW	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/drweng/jobs/8064737	Trading Systems Engineer	DRW	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/chicagotrading/jobs/4675190005	C++ Senior Engineer - Market Data	Chicago Trading Company	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/chicagotrading/jobs/4673730005	C++ Senior Engineer - Options Market Making Execution	Chicago Trading Company	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/vaticlabs/jobs/52953	Low Latency C++ Engineer	Vatic Labs	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/flowtraders/jobs/8027267	Senior Software Engineer, C++ (Market Data)	Flow Traders	2026-08-08	job-boards.greenhouse.io	added
+https://job-boards.greenhouse.io/drweng/jobs/7997877	Senior Software Engineer, C++ (Algo)	DRW	2026-08-08	job-boards.greenhouse.io	added
+https://www.oldmissioncapital.com/careers/?gh_jid=5607344003	C++ Software Engineer	Old Mission Capital	2026-08-08	oldmissioncapital.com	added
+https://www.tower-research.com/open-positions/?gh_jid=7985905	Software Engineer, Trading Systems (C++)	Tower Research Capital	2026-08-08	tower-research.com	added
+https://www.hudsonrivertrading.com/careers/job/?gh_jid=7392942	Software Engineer – C++	Hudson River Trading	2026-08-08	hudsonrivertrading.com	added
+https://www.tower-research.com/open-positions/?gh_jid=3878081	Experienced Software Developer (C++)	Tower Research Capital	2026-08-08	tower-research.com	added
+https://jobs.ashbyhq.com/exegy/4c415b82-e1f0-42fd-abf3-4715d49c6411	Lead Software Developer, C++	Exegy	2026-08-08	jobs.ashbyhq.com	added
+https://job-boards.greenhouse.io/vaticlabs/jobs/7862930	Low Latency C++ Engineer (UAE)	Vatic Labs	2026-08-08	job-boards.greenhouse.io	added
+https://www.optiver.com/join-us/jobs/8589307002/?gh_jid=8589307002	Senior C++ Developer	Optiver	2026-08-08	optiver.com	added
+https://job-boards.greenhouse.io/eclipsetrading/jobs/7339999002	Low Latency C++ Engineer	Eclipse Trading	2026-08-08	greenhouse.io	skipped_dup
+https://www.janestreet.com/join-jane-street/apply/6254435002?gh_jid=6254435002	Low-Latency Engineer	Jane Street	2026-08-08	janestreet.com	skipped_dup
+https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085	Software Engineer (Entry-Level) - C++	Akuna Capital	2026-08-08	akunacapital.com	skipped_title
+https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052122	Software Engineer (C++ or Python) – 2027 Grads	Hudson River Trading	2026-08-08	hudsonrivertrading.com	skipped_title
+https://job-boards.eu.greenhouse.io/imc/jobs/4945420101	C++ Software Engineer, Early Careers	IMC Trading	2026-08-08	greenhouse.io	skipped_title
+https://job-boards.eu.greenhouse.io/imc/jobs/4629428101	Quantitative Python Developer	IMC Trading	2026-08-08	greenhouse.io	skipped_title
+https://job-boards.greenhouse.io/virtu/jobs/6072565002	Software Engineer - Client Trading Infrastructure (Java)	Virtu Financial	2026-08-08	greenhouse.io	skipped_title
+https://job-boards.eu.greenhouse.io/nksecuritiesresearch/jobs/4519817101	Low Latency FPGA Developer	NK Securities Research	2026-08-08	greenhouse.io	skipped_title
+https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8176611002	Quantitative Developer Intern	AlphaGrep Securities	2026-08-08	greenhouse.io	skipped_title
+https://www.tower-research.com/open-positions/?gh_jid=7956165	Software Engineer II	Tower Research Capital	2026-08-08	tower-research.com	skipped_title
+https://www.tower-research.com/open-positions/?gh_jid=8074310	Software Engineer III	Tower Research Capital	2026-08-08	tower-research.com	skipped_title
+https://www.optiver.com/join-us/jobs/8309310002/?gh_jid=8309310002	Network Engineer - Low Latency	Optiver	2026-08-08	optiver.com	skipped_title
+https://job-boards.eu.greenhouse.io/nksecuritiesresearch/jobs/4022066101	Low Latency Software Developer (C++)	NK Securities Research	2026-08-08	greenhouse.io	skipped_expired
+https://www.iimjobs.com/j/greenland-investment-management-low-latency-infrastructure-developer-c-hft-hedge-fund-iit-nit-2-10-yrs-1184915	Low Latency Infrastructure Developer C++ HFT	Greenland Investment Mgmt	2026-08-08	iimjobs.com	skipped_expired
+https://cutshort.io/job/Software-Developer-C-Mumbai-Dolat-Capital-Market-Private-Ltd--oA5uC3S2	Software Developer C++ (0-2 yrs)	Dolat Capital	2026-08-08	cutshort.io	skipped_title
+https://tradingtechnologies.pinpointhq.com/en/jobs/238510	Senior Systems Engineer Windows & AD	Trading Technologies	2026-08-08	pinpointhq.com	skipped_title
+https://jobs.citi.com/job/pune/senior-c-developer-assistant-vice-president/287/98789767504	Senior C++ Developer - Assistant Vice President	Citi	2026-08-07	radancy-ats	added
+https://jobs.citi.com/job/pune/senior-software-engineer-equities-low-latency-technology-rust-c/287/98562571728	Senior Software Engineer – Equities Low-Latency Technology (Rust / C++)	Citi	2026-08-07	radancy-ats	added
+https://jobs.citi.com/job/london/c-python-quantitative-developer-cross-asset-xva-and-capital-analytics-vice-president/287/98849830464	C++/Python Quantitative Developer - Cross Asset XVA and Capital Analytics (Vice President)	Citi	2026-08-07	radancy-ats	added
+https://jobs.citi.com/job/mississauga/low-latency-senior-java-developer/287/98895828784	Low latency Senior Java Developer	Citi	2026-08-07	radancy-ats	added
+https://jobs.citi.com/job/jersey-city/algorithmic-trading-developer-vice-president/287/98105452688	Algorithmic Trading Developer – Vice President	Citi	2026-08-07	radancy-ats	added
+https://jobs.citi.com/job/london/senior-fx-etrading-developer-vp-london/287/98836166816	Senior FX eTrading Developer - VP - London	Citi	2026-08-07	radancy-ats	added
+https://jobs.citi.com/job/singapore/technology-business-senior-analyst-fixed-income-electronic-trading-pricing/287/98789775424	Technology Business Senior Analyst (Fixed Income - Electronic Trading, Pricing)	Citi	2026-08-07	radancy-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778109	Lead Software Engineer, Low-Latency Market Connectivity, C++	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210746952	Lead / Senior C++ Software Engineer	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210772254	Senior Lead Software Engineering - C++ low latency	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691006	Lead Software Engineer, C++, Electronic Trading Technology	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210649688	Senior Lead eSoftware Engineer - C++ Electronic Trading	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210647691	Lead C++ Low Latency Software Engineer, Equities Technologies	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210704870	Vice President - Sr. Lead / Lead Software Engineer - C++ - Equities Trading/ Electronic Trading	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765590	Lead Software Engineer - C++, FPGA, Low Latency, Electronic Trading	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761661	Lead eSoftware engineer, Smart Order Routing C++, Equities Technologies Team	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210772418	Lead Software Engineer - Low Latency Java	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210727128	Lead Infrastructure Software Engineer- Low Latency Trading	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775759	Lead Software Engineer - Java, Low Latency (Payment domain)	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210760669	Director of eSoftware Engineering - FPGA / Equities Low Latency Trading	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210747702	Sr. Lead Software Engineer -Java, Low Latency	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210741357	Software Engineer II - Low-Latency Java and Kafka	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210675480	Director of Infrastructure Software Engineering- Electronic Trading Services	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://search.jobs.barclays/job/prague/low-latency-c-senior-developer/13015/89362382512	Low-latency C++ Senior Developer	Barclays	2026-08-07	radancy-ats	added
+https://search.jobs.barclays/job/prague/equities-valuations-c-software-engineer/13015/98800928224	Equities Valuations C++ Software Engineer	Barclays	2026-08-07	radancy-ats	added
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761659	Lead eSoftware engineer, Smart Order Routing C++, Equities Technologies Team	JP Morgan Chase	2026-08-07	oracle-ats	added
+https://boards.greenhouse.io/gravitonresearchcapital/jobs/5099344002	Software Engineer	Graviton Research Capital	2026-08-08	greenhouse.io	added
+https://job-boards.greenhouse.io/greenlandinvestmentmanagement/jobs/5364104008	Software Development Engineer	Greenland Investment Management	2026-08-08	greenhouse.io	added
+https://www.instahyre.com/job-138141-software-developer-c-at-dolat-capital-market-mumbai/	Software Developer C++	Dolat Capital	2026-08-08	instahyre.com	added
+https://boards.greenhouse.io/gravitonresearchcapital/jobs/8585174002	Software Developer - Quant Tools	Graviton Research Capital	2026-08-08	greenhouse.io	skipped_title
+https://job-boards.eu.greenhouse.io/nksecuritiesresearch/jobs/4519817101	Low Latency FPGA Developer	NK Securities Research	2026-08-08	greenhouse.io	skipped_title
+https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8555959002	Data Operations Engineer - Python	Qube Research & Technologies	2026-08-08	greenhouse.io	skipped_title
+https://www.linkedin.com/jobs/view/4450236481	Senior Developer (Summit & C++) AVP	State Street	2026-08-08	linkedin.com	added

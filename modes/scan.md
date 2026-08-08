@@ -49,14 +49,31 @@ When displaying results, group by location if possible, India first.
 
 Each company MUST have `careers_url` in portals.yml. If missing, search for it and save it.
 
-### Level 2 — ATS APIs (COMPLEMENTARY)
+### Level 2 — ATS APIs (PREFERRED — run this FIRST)
+
+**Run `node scan.mjs` before anything else.** It queries employer job
+boards directly, costs zero tokens, and returns live listings (a closed
+req disappears from the API). Prefer it over Level 3 in all cases.
 
 For companies with a public API or structured feed:
 - **Greenhouse**: `https://boards-api.greenhouse.io/v1/boards/{slug}/jobs`
-- **Ashby**: POST GraphQL to `https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams`
+- **Ashby**: `https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true`
 - **Lever**: `https://api.lever.co/v0/postings/{slug}?mode=json`
 - **BambooHR**: list `https://{company}.bamboohr.com/careers/list`; detail `https://{company}.bamboohr.com/careers/{id}/detail`
 - **Workday**: POST JSON to `https://{company}.{shard}.myworkdayjobs.com/wday/cxs/{company}/{site}/jobs`
+- **Radancy**: `https://{board}/search-jobs/{keyword}/{org}/{page}` (HTML)
+- **Oracle HCM**: `https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?finder=findReqs;siteNumber={site},keyword={kw}`
+
+**Banks and exchanges never use Greenhouse/Ashby/Lever.** They run
+Radancy (Citi, Barclays), Workday (Morgan Stanley, Deutsche Bank), or
+Oracle HCM (JP Morgan). These need an explicit `ats:` block in
+`portals.yml` — a `careers_url` alone is not enough for the scanner to
+find them. If a company the user expects is missing from results, check
+whether it has an `ats:` block before assuming it has no openings.
+
+**Platform quirks:**
+- Radancy ignores the `Keyword` query param — filtering only works via the URL path. For location-pinned searches, paste the exact faceted URL from the site into `ats.urls`.
+- Workday's `searchText` drops `+`, so a bare `C++` matches everything. Use multi-word keywords and rely on the title filter.
 
 ### Level 3 — WebSearch queries (BROAD DISCOVERY)
 

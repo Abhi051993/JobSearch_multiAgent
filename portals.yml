@@ -586,6 +586,95 @@ tracked_companies:
   # ==============================================
   # TIER 2: Investment Banks — Electronic Trading
   # ==============================================
+  #
+  # Banks do NOT use Greenhouse/Ashby/Lever. They run enterprise ATS
+  # platforms (Radancy, Workday, Oracle HCM) that scan.mjs now queries
+  # directly via an `ats:` block. Entries with `scan_method: websearch`
+  # depend on Google honouring `site:` filters, which it frequently does
+  # not — prefer `scan_method: ats` wherever the platform is known.
+
+  - name: Citi
+    careers_url: https://jobs.citi.com
+    scan_method: ats
+    ats:
+      type: radancy
+      board: https://jobs.citi.com
+      org: "287"
+      keywords:
+        - "C++"
+        - "low latency"
+        - "market connectivity"
+        - "FIX protocol"
+        - "electronic trading"
+      max_pages: 12
+      # Pune-pinned search copied from the careers site (facet IDs cannot
+      # be built from a city name — paste the URL from the address bar).
+      urls:
+        - https://jobs.citi.com/search-jobs/C%2B%2B/Pune%2C%20Maharashtra/287/1/4/1269750-1264418-8133375-1259229/18x51957/73x85535/50/2
+    notes: "Pune/Chennai/Mumbai/London/NY. Large Markets tech org. Pune has C++ Equities low-latency team."
+    enabled: true
+
+  - name: Barclays
+    careers_url: https://search.jobs.barclays
+    scan_method: ats
+    ats:
+      type: radancy
+      board: https://search.jobs.barclays
+      org: "13015"
+      keywords:
+        - "C++"
+        - "low latency"
+        - "electronic trading"
+      max_pages: 3
+    notes: "Pune/Mumbai/London/NY. Markets technology. Radancy board renders results via AJAX."
+    enabled: true
+
+  - name: JP Morgan Chase
+    careers_url: https://careers.jpmorgan.com
+    scan_method: ats
+    ats:
+      type: oracle
+      host: jpmc.fa.oraclecloud.com
+      site: CX_1001
+      keywords:
+        - "C++"
+        - "low latency"
+        - "market connectivity"
+      limit: 50
+    notes: "Mumbai/Bangalore/Hyderabad/London/Singapore. Strong low-latency C++ postings on Oracle HCM."
+    enabled: true
+
+  - name: Morgan Stanley
+    careers_url: https://ms.wd5.myworkdayjobs.com/External
+    scan_method: ats
+    ats:
+      type: workday
+      tenant: ms
+      host: wd5
+      site: External
+      keywords:
+        - "c++ developer"
+        - "low latency"
+        - "electronic trading"
+      limit: 50
+    notes: "Mumbai/Bangalore/London/NY. Workday searchText drops '+', so use multi-word keywords."
+    enabled: true
+
+  - name: Deutsche Bank
+    careers_url: https://db.wd3.myworkdayjobs.com/DBWebsite
+    scan_method: ats
+    ats:
+      type: workday
+      tenant: db
+      host: wd3
+      site: DBWebsite
+      keywords:
+        - "c++ developer"
+        - "low latency"
+        - "market connectivity"
+      limit: 50
+    notes: "Pune/Mumbai/Bangalore/Frankfurt/London. Markets tech."
+    enabled: true
 
   - name: Goldman Sachs Technology
     careers_url: https://www.goldmansachs.com/careers/
